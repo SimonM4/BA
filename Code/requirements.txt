@@ -1,0 +1,14 @@
+# Stufe 1 + Stufe 2 (Objekterkennung, YOLO26)
+ultralytics
+
+# Stufe 3 (Zeichen-Klassifikation)
+torch
+torchvision
+
+# von prepare_visdrone.py / unify_yolo_labels.py verwendet
+Pillow
+
+# Installation:
+#   pip install -r requirements.txt
+# (auf Kaggle/Colab sind torch/torchvision i.d.R. schon vorinstalliert,
+#  dort reicht meist: pip install ultralytics)
