@@ -169,7 +169,7 @@ def run_epoch(model, loader, criterion, optimizer, device, train: bool):
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--data-dirs", nargs="+", required=True, help="Ein oder mehrere Ordner mit Klassen-Unterordnern (0-9/A-Z)")
-    ap.add_argument("--out", default="runs_stage3/char_ocr_model.pt", help="Wohin das trainierte Modell gespeichert wird")
+    ap.add_argument("--out", default=str(Path(__file__).resolve().parent.parent / "runs_stage3" / "char_ocr_model.pt"), help="Wohin das trainierte Modell gespeichert wird")
     ap.add_argument("--epochs", type=int, default=20)
     ap.add_argument("--batch-size", type=int, default=64)
     ap.add_argument("--img-size", type=int, default=64)

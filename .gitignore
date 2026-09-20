@@ -3,11 +3,11 @@
 Daten/
 
 # Trainings-Outputs (Checkpoints, Logs) - ebenfalls gross
-Code/runs_stage1/
-Code/runs_stage2/
-Code/runs_stage3/
-Code/*.pt
-Code/*.classes.json
+runs_stage1/
+runs_stage2/
+runs_stage3/
+models/
+*.classes.json
 
 # Python
 __pycache__/

@@ -41,12 +41,11 @@ Output (unter --out-dir, Default "visdrone_yolo"):
                  tricycle, awning-tricycle, bus, motor)
 
 Aufruf:
-  python prepare_visdrone.py --data-dir "C:\\Users\\smehl\\OneDrive\\Desktop\\BA\\Daten"
+  python prepare_visdrone.py --data-dir "C:\\BA\\Daten"
 """
 
 import argparse
 import shutil
-import time
 import zipfile
 from pathlib import Path
 from PIL import Image
@@ -71,25 +70,12 @@ def log(msg: str) -> None:
 
 
 def reset_output(out_dir: Path) -> None:
-    """Wie beim Kennzeichen-Merge-Script: mit Retry, falls OneDrive den
-    alten Ordner gerade synchronisiert und kurzzeitig sperrt."""
+    """Loescht einen vorhandenen Ausgabeordner und legt die Split-Unterordner
+    neu an. Liegt --out-dir NICHT mehr in einem Cloud-Sync-Ordner (OneDrive/
+    Dropbox/...), ist das ein normaler, sofortiger Dateisystem-Vorgang --
+    kein Warten/Retry mehr noetig."""
     if out_dir.exists():
-        last_err = None
-        for attempt in range(6):
-            try:
-                shutil.rmtree(out_dir)
-                last_err = None
-                break
-            except PermissionError as e:
-                last_err = e
-                wait = 2 * (attempt + 1)
-                log(f"  Ausgabeordner gesperrt (vermutlich OneDrive-Sync), warte {wait}s ...")
-                time.sleep(wait)
-        if last_err is not None:
-            raise RuntimeError(
-                f"Konnte {out_dir} nicht loeschen (vermutlich OneDrive-Sync). "
-                f"OneDrive kurz pausieren oder --out-dir ausserhalb von OneDrive waehlen."
-            ) from last_err
+        shutil.rmtree(out_dir)
     for split in ("train", "val", "test"):
         (out_dir / "images" / split).mkdir(parents=True, exist_ok=True)
         (out_dir / "labels" / split).mkdir(parents=True, exist_ok=True)
@@ -144,24 +130,37 @@ def convert_annotation_file(ann_path: Path, img_path: Path) -> str:
 
 def resolve_extracted_dir(data_dir: Path, zip_name: str, extracted_name: str, work_dir: Path) -> Path:
     """Nutzt einen schon entpackten Ordner, falls vorhanden, sonst wird die
-    Zip-Datei nach work_dir entpackt."""
+    Zip-Datei nach work_dir entpackt.
+
+    WICHTIG (auf Kaggle entdeckt): Kaggle behaelt hochgeladene Zips NICHT als
+    Zip -- es entpackt sie beim Dataset-Upload automatisch in einen
+    gleichnamigen Ordner (z.B. wird aus "VisDrone2019-DET-train.zip" sofort
+    der Ordner "VisDrone2019-DET-train/"). Enthaelt das Original-Zip intern
+    selbst schon einen Ordner mit demselben Namen (bei VisDrone der Fall),
+    entsteht dadurch eine DOPPELTE Verschachtelung:
+    "VisDrone2019-DET-train/VisDrone2019-DET-train/images/...". Deshalb wird
+    die Verschachtelungs-Pruefung unten IMMER ausgefuehrt (nicht nur nach
+    eigenem Entpacken) -- sie greift unabhaengig davon, ob der Ordner schon
+    vorher existierte oder gerade erst aus dem Zip entstanden ist."""
     already_extracted = data_dir / extracted_name
     if already_extracted.is_dir():
-        return already_extracted
+        dest = already_extracted
+    else:
+        zip_path = data_dir / zip_name
+        if not zip_path.exists():
+            raise FileNotFoundError(
+                f"Weder Ordner '{extracted_name}' noch Zip '{zip_name}' gefunden unter {data_dir}"
+            )
 
-    zip_path = data_dir / zip_name
-    if not zip_path.exists():
-        raise FileNotFoundError(f"{zip_name} nicht gefunden unter {data_dir}")
+        dest = work_dir / extracted_name
+        dest.mkdir(parents=True, exist_ok=True)
+        log(f"Entpacke {zip_name} (das kann bei ~1,5 GB einen Moment dauern) ...")
+        with zipfile.ZipFile(zip_path) as z:
+            z.extractall(dest)
 
-    dest = work_dir / extracted_name
-    dest.mkdir(parents=True, exist_ok=True)
-    log(f"Entpacke {zip_name} (das kann bei ~1,5 GB einen Moment dauern) ...")
-    with zipfile.ZipFile(zip_path) as z:
-        z.extractall(dest)
-
-    # manche VisDrone-Zips haben eine zusaetzliche Verschachtelung
-    # (VisDrone2019-DET-train/VisDrone2019-DET-train/images/...) -- falls
-    # images/annotations nicht direkt da liegen, eine Ebene tiefer suchen.
+    # Eine oder mehrere zusaetzliche Verschachtelungsebenen abfangen (siehe
+    # Docstring oben) -- falls images/annotations nicht direkt da liegen, im
+    # ganzen Baum danach suchen statt nur eine feste Ebene tiefer.
     if not (dest / "images").is_dir():
         candidates = list(dest.rglob("images"))
         if candidates:

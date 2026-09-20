@@ -5,7 +5,7 @@ ultralytics
 torch
 torchvision
 
-# von prepare_visdrone.py / unify_yolo_labels.py verwendet
+# von prepare_visdrone.py / train_stage3_char_ocr.py verwendet
 Pillow
 
 # Installation:
