@@ -87,16 +87,25 @@ AUSGABE (in --out-dir, Standard C:\\BA\\runs_stage3)
 
 Aufruf (aus C:\\BA\\Code), siehe auch Start\\02_stage3_trainieren.bat:
   python train_stage3_char_ocr.py --data "C:\\BA\\Daten\\archive (4).zip" "C:\\BA\\Daten\\DeutschEinzelneZahlen.zip" --negatives-from C:\\BA\\Daten\\kennzeichen_detection_dataset
+
+Auf Kaggle mit GPU (Notebook "BA Stufe 3", --device auto erkennt die GPU selbst):
+  python train_stage3_char_ocr.py --data ".../archive (4)" ".../DeutschEinzelneZahlen" \\
+      --negatives-from /kaggle/working/kennzeichen_detection_dataset \\
+      --out-dir /kaggle/working/runs_stage3 --epochs 60
+  (Die GPU beschleunigt nur das Netz. Die Augmentierung laeuft auf der CPU
+  und bestimmt dort grossteils die Dauer einer Epoche.)
 """
 
 import argparse
 import csv
 import io
 import json
+import pickle
 import random
 import time
 import zipfile
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import cv2                 # OpenCV: Bilder laden, skalieren, verzerren, weichzeichnen
@@ -166,11 +175,19 @@ def load_source(path: Path):
                     # (mittelt Pixel, statt einzelne zu ueberspringen).
                     items.append((cv2.resize(img, (RAW_W, RAW_H), interpolation=cv2.INTER_AREA), cls))
     else:
-        for p in path.rglob("*"):
-            if p.suffix.lower() in IMG_EXTS and _is_class_name(p.parent.name.upper()):
-                img = _decode(p.read_bytes())
-                if img is not None:
-                    items.append((cv2.resize(img, (RAW_W, RAW_H), interpolation=cv2.INTER_AREA), p.parent.name.upper()))
+        files = sorted(p for p in path.rglob("*")
+                       if p.suffix.lower() in IMG_EXTS and _is_class_name(p.parent.name.upper()))
+        # Dateien PARALLEL lesen: Auf Kaggle liegen die Eingabedaten auf einem
+        # Netzlaufwerk, jede einzelne Datei hat dort eine Wartezeit von ca.
+        # 0,2 s. Nacheinander gelesen dauern 35.500 Dateien ueber eine
+        # Stunde, mit 32 gleichzeitigen Lesevorgaengen nur wenige Minuten.
+        # ex.map behaelt die Reihenfolge bei -> Ergebnis identisch.
+        with ThreadPoolExecutor(max_workers=32) as ex:
+            bufs = list(ex.map(lambda f: f.read_bytes(), files))
+        for p, buf in zip(files, bufs):
+            img = _decode(buf)
+            if img is not None:
+                items.append((cv2.resize(img, (RAW_W, RAW_H), interpolation=cv2.INTER_AREA), p.parent.name.upper()))
     return items
 
 
@@ -365,7 +382,8 @@ def evaluate(model, X_raw, y, classes, rng, degrade: bool, bs=512):
         for b in make_batches(len(X_raw), bs, False, rng):
             imgs = [normalize_char_image(augment(X_raw[i], rng) if degrade else X_raw[i]) for i in b]
             # argmax(1): die Klasse mit dem hoechsten Wert ist die Vorhersage
-            preds.append(model(to_tensor(imgs)).argmax(1).numpy())
+            # Bilder auf dasselbe Geraet (CPU/GPU) wie das Modell, Ergebnis zurueck auf die CPU
+            preds.append(model(to_tensor(imgs).to(next(model.parameters()).device)).argmax(1).cpu().numpy())
     preds = np.concatenate(preds) if preds else np.array([], int)
     return float((preds == y).mean()) if len(y) else 0.0, preds
 
@@ -418,8 +436,8 @@ def main() -> None:
     #   --val-split 0.15  : 15 % jeder Klasse werden zum Pruefen zurueckgehalten
     #   --oversample-small 4 : kleine Quellen 4x wiederholen (siehe Kopf, Punkt 3)
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--data", "--data-dirs", nargs="+", required=True,
-                    help="Zip-Dateien oder Ordner mit <klasse>/<bild>-Struktur")
+    ap.add_argument("--data", "--data-dirs", nargs="+", default=None,
+                    help="Zip-Dateien oder Ordner mit <klasse>/<bild>-Struktur (nicht noetig, wenn --cache schon existiert)")
     ap.add_argument("--negatives-from", default=None,
                     help="Kennzeichen-Detection-Datensatz (YOLO) fuer 'kein Zeichen'-Beispiele")
     ap.add_argument("--n-negatives", type=int, default=3000)
@@ -429,19 +447,40 @@ def main() -> None:
     ap.add_argument("--lr", type=float, default=2e-3)
     ap.add_argument("--val-split", type=float, default=0.15)
     ap.add_argument("--threads", type=int, default=0, help="CPU-Threads fuer torch (0 = automatisch)")
+    ap.add_argument("--device", default="auto",
+                    help="'auto' (GPU, falls vorhanden, sonst CPU), 'cuda' oder 'cpu'")
     ap.add_argument("--oversample-small", type=int, default=4,
                     help="kleine Quellen (<10.000 Bilder, z.B. DeutschEinzelneZahlen) so oft wiederholen")
+    ap.add_argument("--cache", default=None,
+                    help="Pickle-Datei mit den fertig eingelesenen Bildern. Existiert sie, wird sie statt --data/"
+                         "--negatives-from geladen (eine Datei = schnell). Sonst wird sie nach dem Einlesen geschrieben.")
+    ap.add_argument("--nur-cache-schreiben", action="store_true",
+                    help="nur einlesen, --cache schreiben und beenden (kein Training), z.B. in einem Kaggle-Notebook "
+                         "ohne GPU, damit das langsame Einlesen kein GPU-Kontingent verbraucht")
     args = ap.parse_args()
+    cache_path = Path(args.cache) if args.cache else None
+    use_cache = cache_path is not None and cache_path.exists() and not args.nur_cache_schreiben
+    if not use_cache and not args.data:
+        ap.error("--data ist erforderlich (ausser es gibt schon eine --cache-Datei)")
+    if args.nur_cache_schreiben and cache_path is None:
+        ap.error("--nur-cache-schreiben braucht --cache <datei>")
 
     # Alle drei Zufallsgeneratoren (Python, numpy, torch) festlegen ->
     # reproduzierbare Datenaufteilung, Augmentierung und Startgewichte.
     rng = random.Random(SEED)
     np.random.seed(SEED)
     torch.manual_seed(SEED)
+    # Rechengeraet waehlen. Auf Kaggle mit GPU ist das "cuda": Vorwaerts- und
+    # Rueckwaertsrechnung des Netzes laufen dann auf der Grafikkarte. Die
+    # Augmentierung (OpenCV) laeuft weiterhin auf der CPU.
+    device = torch.device("cuda" if args.device == "auto" and torch.cuda.is_available()
+                          else ("cpu" if args.device == "auto" else args.device))
+    print(f"[stage3] Geraet: {device}" + (f" ({torch.cuda.get_device_name(0)})" if device.type == "cuda" else ""))
     if args.threads:
         torch.set_num_threads(args.threads)
     out_dir = Path(args.out_dir)
-    out_dir.mkdir(parents=True, exist_ok=True)
+    if not args.nur_cache_schreiben:
+        out_dir.mkdir(parents=True, exist_ok=True)
 
     # -----------------------------------------------------------------------
     # SCHRITT 2: Daten laden
@@ -452,7 +491,18 @@ def main() -> None:
     #   repeat_of[i] : wie oft soll Bild i im Training wiederholt werden?
     t0 = time.time()
     items, source_of, repeat_of = [], [], []
-    for src in args.data:
+    if use_cache:
+        # Schnellweg: alles aus EINER Datei. Der Zustand des Zufallsgenerators
+        # nach dem Einlesen wird mitgeladen, damit Aufteilung und Training
+        # genau so ablaufen, als waeren die Bilder gerade frisch gelesen worden.
+        with open(cache_path, "rb") as f:
+            c = pickle.load(f)
+        items = list(zip(list(c["X"]), c["cls"]))
+        source_of, repeat_of = list(c["source_of"]), list(c["repeat_of"])
+        rng.setstate(c["rng_state"])
+        print(f"[stage3] {len(items)} Bilder aus Cache {cache_path} geladen "
+              f"(eingelesen aus: {', '.join(c.get('quellen', []))})")
+    for src in ([] if use_cache else args.data):
         p = Path(src)
         its = load_source(p)
         print(f"[stage3] {p.name}: {len(its)} Bilder, Klassen: {''.join(sorted(set(c for _, c in its)))}")
@@ -462,13 +512,23 @@ def main() -> None:
         repeat_of += [rep] * len(its)
         if rep > 1:
             print(f"[stage3]   -> {rep}x ueberabgetastet (kleine Quelle, aber FE-Schrift wie auf echten Kennzeichen)")
-    if args.negatives_from:
+    if args.negatives_from and not use_cache:
         neg = load_negatives(Path(args.negatives_from), args.n_negatives, rng)
         print(f"[stage3] 'kein Zeichen'-Beispiele aus {args.negatives_from}: {len(neg)}")
         items += neg
         source_of += ["negatives"] * len(neg)
         repeat_of += [1] * len(neg)
     print(f"[stage3] Laden: {time.time() - t0:.1f}s")
+    if cache_path is not None and not use_cache:
+        with open(cache_path, "wb") as f:
+            pickle.dump({"X": np.stack([im for im, _ in items]), "cls": [c for _, c in items],
+                         "source_of": source_of, "repeat_of": repeat_of, "rng_state": rng.getstate(),
+                         "quellen": [str(x) for x in args.data] + ([str(args.negatives_from)] if args.negatives_from else []),
+                         "n_negatives": args.n_negatives, "oversample_small": args.oversample_small}, f, protocol=4)
+        print(f"[stage3] Cache geschrieben: {cache_path} ({cache_path.stat().st_size / 1e6:.0f} MB)")
+    if args.nur_cache_schreiben:
+        print("[stage3] --nur-cache-schreiben: fertig, kein Training.")
+        return
 
     # Klassen alphabetisch sortieren und durchnummerieren:
     # "0"->0, "1"->1, ..., "A"->10, ..., "_"->36. Das Netz arbeitet mit
@@ -518,10 +578,10 @@ def main() -> None:
     # "100 %". Das verhindert, dass das Netz uebertrieben selbstsicher wird,
     # was bei unsicheren Drohnenbildern zu falschen, aber sicheren Antworten
     # fuehren wuerde.
-    criterion = nn.CrossEntropyLoss(weight=torch.tensor(w / w.mean()), label_smoothing=0.05)
+    criterion = nn.CrossEntropyLoss(weight=torch.tensor(w / w.mean()).to(device), label_smoothing=0.05)
 
     # Das Netz selbst (Aufbau: siehe char_cnn.py), mit zufaelligen Startgewichten.
-    model = CharCNN(len(classes))
+    model = CharCNN(len(classes)).to(device)
     print(f"[stage3] Modell: {sum(p.numel() for p in model.parameters()) / 1e6:.2f} Mio. Parameter, "
           f"Torch-Threads: {torch.get_num_threads()}")
     # AdamW: verbreiteter Optimierer (passt die Schrittweite pro Gewicht an).
@@ -547,7 +607,7 @@ def main() -> None:
             # 85 % der Bilder werden augmentiert, 15 % bleiben sauber. So
             # verlernt das Netz die sauberen Zeichen nicht.
             imgs = [normalize_char_image(augment(Xtr[i], rng) if rng.random() < 0.85 else Xtr[i]) for i in b]
-            xb, yb = to_tensor(imgs), torch.from_numpy(ytr[b])
+            xb, yb = to_tensor(imgs).to(device), torch.from_numpy(ytr[b]).to(device)
             # Die vier Schritte eines Lernschritts:
             optimizer.zero_grad()            # 1. alte Gradienten loeschen
             loss = criterion(model(xb), yb)  # 2. Vorhersage + Fehler berechnen
@@ -578,7 +638,10 @@ def main() -> None:
         # weiss, welche Ausgabenummer welcher Buchstabe ist.
         if acc_deg > best_acc:
             best_acc = acc_deg
-            torch.save({"model_state": model.state_dict(), "classes": classes, "img_size": CHAR_SIZE,
+            # Gewichte immer als CPU-Tensoren speichern -> das Modell laesst
+            # sich danach auch auf einem Rechner ohne GPU laden.
+            torch.save({"model_state": {k: v.detach().cpu() for k, v in model.state_dict().items()},
+                        "classes": classes, "img_size": CHAR_SIZE,
                         "epoch": epoch, "val_acc_clean": acc_clean, "val_acc_degraded": acc_deg}, model_path)
         # Verlauf nach JEDER Epoche neu schreiben -> bei einem Abbruch ist
         # der Stand bis dahin trotzdem vorhanden.
@@ -589,7 +652,7 @@ def main() -> None:
     # -----------------------------------------------------------------------
     # SCHRITT 6: Abschlussauswertung mit dem besten Modell
     # -----------------------------------------------------------------------
-    ckpt = torch.load(model_path, weights_only=False)
+    ckpt = torch.load(model_path, map_location=device, weights_only=False)
     model.load_state_dict(ckpt["model_state"])
     acc_deg, preds = evaluate(model, Xva, yva, classes, random.Random(123), degrade=True)
     # Konfusionsmatrix: cm[wahr, vorhergesagt] zaehlt, wie oft Klasse "wahr"
