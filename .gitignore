@@ -14,3 +14,5 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+# Kaggle-Downloads (werden ueber Start\01_kaggle_output_holen.bat neu geholt)
+kaggle_output/

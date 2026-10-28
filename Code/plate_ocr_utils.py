@@ -61,19 +61,40 @@ def normalize_char_image(img: np.ndarray, size: int = CHAR_SIZE, auto_polarity: 
     auto_polarity=True (Training): Polaritaet automatisch bestimmen (die
     Quelle DeutschEinzelneZahlen ist weiss auf schwarz). Bei der Inferenz ist
     die Polaritaet aus der Segmentierung schon bekannt -> False, denn
-    angeschnittene Nachbarzeichen am Rand koennen die Automatik taeuschen."""
+    angeschnittene Nachbarzeichen am Rand koennen die Automatik taeuschen.
+
+    WARUM diese Funktion so wichtig ist: Sie laeuft beim Training (auf jedem
+    Trainingsbild) UND im Einsatz (auf jedem Zeichen vom Kennzeichen). Nur
+    wenn beide Male exakt gleich vorverarbeitet wird, sieht das Netz im
+    Einsatz dieselbe Art von Bild, die es gelernt hat.
+
+    Die drei Schritte:
+      1. Graustufen + auf size x size (48 x 48) skalieren
+      2. Polaritaet vereinheitlichen: immer dunkles Zeichen auf hellem Grund
+      3. Kontrast strecken: dunkelste Pixel -> 0, hellste -> 255"""
+    # Schritt 1: Farbe entfernen (Zeichenform reicht) und auf Netzgroesse bringen.
     g = to_gray(img)
     g = cv2.resize(g, (size, size), interpolation=cv2.INTER_AREA)
     if auto_polarity:
-        # Otsu trennt Zeichen und Hintergrund. Oberste/unterste Zeilen sind
-        # fast immer Hintergrund (links/rechts koennen Nachbarzeichen stehen).
+        # Schritt 2: Ist das Zeichen hell auf dunkel, Bild invertieren.
+        # Otsu waehlt automatisch die Schwelle, die Zeichen und Hintergrund
+        # am besten trennt (-> Schwarz-Weiss-Bild bw). Dann wird geprueft,
+        # ob die obersten und untersten 2 Zeilen ueberwiegend weiss sind.
+        # Diese Zeilen sind fast immer Hintergrund (links/rechts koennen
+        # dagegen Reste von Nachbarzeichen stehen). Sind sie ueberwiegend
+        # schwarz, ist der Hintergrund dunkel -> invertieren (255 - g).
         _, bw = cv2.threshold(g, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
         border = np.concatenate([bw[:2, :].ravel(), bw[-2:, :].ravel()])
         if np.mean(border > 0) < 0.5:
             g = 255 - g
+    # Schritt 3: Kontrast strecken. Statt des absolut dunkelsten/hellsten
+    # Pixels werden das 2-%- und das 98-%-Perzentil genommen. So koennen
+    # einzelne Ausreisser (ein Rauschpixel, ein Glanzpunkt) die Streckung
+    # nicht verderben. Ergebnis: flaue Drohnenbilder und kontrastreiche
+    # Trainingsbilder landen auf derselben Helligkeitsskala.
     lo, hi = np.percentile(g, 2), np.percentile(g, 98)
     if hi - lo < 1:
-        hi = lo + 1
+        hi = lo + 1   # einfarbiges Bild: Division durch 0 vermeiden
     g = np.clip((g.astype(np.float32) - lo) * 255.0 / (hi - lo), 0, 255).astype(np.uint8)
     return g
 
