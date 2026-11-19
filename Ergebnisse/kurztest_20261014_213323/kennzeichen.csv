@@ -1,0 +1,3 @@
+﻿track_id;kennzeichen;ocr_konfidenz;uebereinstimmung;lesungen;frames;erste_sichtung_s;letzte_sichtung_s;fahrzeug_klasse;plausibel;crop
+1;LIP-HD 257;0.934;1.0;50;50;0.0;1.96;;True;crops/track_0001.jpg
+2;KL-KA 386;0.784;1.0;50;50;2.0;3.96;;True;crops/track_0002.jpg

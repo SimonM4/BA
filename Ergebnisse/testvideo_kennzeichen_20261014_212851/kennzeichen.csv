@@ -1,0 +1,26 @@
+﻿track_id;kennzeichen;ocr_konfidenz;uebereinstimmung;lesungen;frames;erste_sichtung_s;letzte_sichtung_s;fahrzeug_klasse;plausibel;crop
+1;K-DG 105;0.722;0.754;25;25;0.0;1.92;;True;crops/track_0001.jpg
+2;UPD-AW 8;0.272;0.116;25;25;2.0;3.92;;False;crops/track_0002.jpg
+3;Z-D 8;0.084;0.508;7;25;4.0;5.92;;False;crops/track_0003.jpg
+4;OE-I 93;0.792;0.671;25;25;6.0;7.92;;True;crops/track_0004.jpg
+5;AN-HF 242;0.589;0.648;25;25;8.0;9.92;;False;crops/track_0005.jpg
+6;Y-887 465;0.874;0.874;49;49;10.0;13.84;;True;crops/track_0006.jpg
+7;FT-HK 787;0.959;0.574;50;50;14.0;17.92;;True;crops/track_0007.jpg
+8;I-I 1;0.11;0.338;6;24;16.0;17.92;;False;crops/track_0008.jpg
+9;LIP-HD 257;0.931;1.0;25;25;18.0;19.92;;True;crops/track_0009.jpg
+10;KL-KA 386;0.787;1.0;25;25;20.0;21.92;;True;crops/track_0010.jpg
+11;ZE-MH 517;0.875;0.381;25;25;22.0;23.92;;True;crops/track_0011.jpg
+12;Y-881 695;0.892;0.306;100;100;24.0;31.92;;True;crops/track_0012.jpg
+14;S-XD 333;0.667;0.319;25;25;32.0;33.92;;True;crops/track_0014.jpg
+15;FU-CK 66;0.892;0.965;25;25;34.0;35.92;;True;crops/track_0015.jpg
+16;(nicht lesbar);0.0;0.0;0;25;36.0;37.92;;False;crops/track_0016.jpg
+17;B-P 1;0.219;0.228;23;25;38.0;39.92;;False;crops/track_0017.jpg
+18;LI-P 2175;0.889;0.787;50;50;40.0;43.92;;True;crops/track_0018.jpg
+19;III-I 11;0.353;0.16;11;11;44.0;45.92;;False;crops/track_0019.jpg
+20;U-LA 2;0.064;1.0;1;20;46.0;47.92;;False;crops/track_0020.jpg
+22;(nicht lesbar);0.0;0.0;0;7;47.44;47.92;;False;crops/track_0022.jpg
+23;IQ-IA 385;0.348;0.205;25;25;48.0;49.92;;False;crops/track_0023.jpg
+24;FD-B 1250;0.895;0.961;25;25;50.0;51.92;;True;crops/track_0024.jpg
+25;TA-LC 181;0.725;0.551;25;25;52.0;53.92;;True;crops/track_0025.jpg
+26;BER-WL 454;0.746;0.85;25;25;54.0;55.92;;True;crops/track_0026.jpg
+27;M-MN 94;0.955;0.456;50;50;56.0;59.92;;True;crops/track_0027.jpg

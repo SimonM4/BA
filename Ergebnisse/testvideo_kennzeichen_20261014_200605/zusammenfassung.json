@@ -1,0 +1,39 @@
+{
+  "quelle": "C:\\BA\\Videos\\testvideo_kennzeichen.mp4",
+  "ausgabe": "C:\\BA\\Ergebnisse\\testvideo_kennzeichen_20261014_200605",
+  "modelle": {
+    "stufe1_fahrzeuge": null,
+    "stufe2_kennzeichen": "C:\\BA\\runs_stage2\\plate_detection_first_test\\weights\\best.pt",
+    "stufe3_zeichen": "C:\\BA\\runs_stage3_versuch1\\char_ocr_model.pt"
+  },
+  "parameter": {
+    "out_dir": "C:\\BA\\Ergebnisse",
+    "plate_model": null,
+    "vehicle_model": null,
+    "ocr_model": "C:\\BA\\runs_stage3_versuch1\\char_ocr_model.pt",
+    "no_vehicles": false,
+    "imgsz": 1280,
+    "crop_imgsz": 640,
+    "plate_conf": 0.35,
+    "vehicle_conf": 0.3,
+    "stride": 2,
+    "max_frames": 300,
+    "min_plate_px": 10,
+    "track_age": 15,
+    "min_track_frames": 2,
+    "no_video": false,
+    "show": false
+  },
+  "frames_gesamt": 301,
+  "frames_analysiert": 150,
+  "laufzeit_s": 102.4,
+  "frames_pro_s": 1.46,
+  "kennzeichen": [
+    "K-DG 105",
+    "U-I 4E",
+    "L-I 8",
+    "U-E 193",
+    "AN-HF 245",
+    "Y-887 465"
+  ]
+}

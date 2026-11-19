@@ -1,0 +1,879 @@
+Quelle: https://enterprise.dji.com/de/dock-3/specs
+Abgerufen: 2026-11-12T21:48:54.362Z
+
+Branchen
+Produkte
+Ökosystem
+Lernzentrum
+Einblicke
+Events
+Service
+DE
+English
+简体中文
+日本語
+Français
+Deutsch
+Español
+한국어
+Pусский
+Italiano
+繁體中文
+Português (BR)
+Kontakt
+Store
+DJI Dock 3
+DJI FlightHub 2
+Dock as First Responder
+Drohnen im Vergleich
+Technische Daten
+Video
+Downloads
+FAQ
+Kontakt aufnehmen
+TECHN. DATEN
+Dock – Allgemein
+Produktname
+DJI Dock 3
+Gesamtgewicht
+55 kg (ohne Fluggerät)
+
+Das tatsächliche Gewicht kann aufgrund unterschiedlicher Chargenmaterialien und externer Faktoren variieren.
+Abmessungen
+Dock-Abdeckung geöffnet: 1760 × 745 × 485 mm (L × B × H)
+Dock-Abdeckung geschlossen: 640 × 745 × 770 mm (L × B × H)
+
+Alle Daten beinhalten die Breite des RTK-Moduls (160 mm), die Höhe des Windgeschwindigkeitsmessers (145 mm) und die Montagehalterungen (58 mm).
+Eingangsspannung
+100 bis 240 V (AC), 50/60 Hz
+Eingangsleistung
+Max. 800 W
+Betriebstemperatur
+-30 °C bis 50 °C
+Schutzart
+IP56
+Max. Anzahl unterstützter Drohnen
+1
+Max. zulässige Windgeschwindigkeit bei Landung
+12 m/s
+Maximale Höhenlage für den Betrieb
+4500 m
+Satellitenfrequenzen der RTK-Basisstation
+Simultaner Empfang:
+GPS: L1 C/A, L2, L5
+BeiDou: B1l, B2l, B3l, B2a, B2b, B1C
+GLONASS: F1, F2
+Galileo: E1, E5a, E5b, E6
+QZSS: L1, L2, L5
+Dock – Ladeleistung
+Ausgangsspannung
+35 V DC
+Ladezeit
+27 Minuten
+
+Die Daten wurden beim Laden des Fluggeräts (im ausgeschalteten Zustand) von 15 % auf 95 % in einer Umgebung mit 25 °C gemessen.
+Dock – Videoübertragung
+Betriebsfrequenz
+2,400 bis 2,4835 GHz
+5,150 bis 5,250 GHz (CE: 5,170 bis 5,250 GHz)
+5,725 bis 5,850 GHz
+
+Die unterstützten Betriebsfrequenzbänder und ihre entsprechende Verfügbarkeit variieren je nach Land/Region. Weitere Einzelheiten erhalten Sie in den örtlichen Gesetzen und Vorschriften.
+Antenne
+9 Antennen integriert, 2 Sender, 4 Empfänger, unterstützt intelligentes Schalten
+Strahlungsleistung (EIRP)
+2,4 GHz: < 33 dBm (FCC), < 20 dBm (CE/SRRC/MIC)
+5,2 GHz (CE: 5,170 bis 5,250 GHz): < 23 dBm (FCC/CE)
+5,8 GHz: < 33 dBm (FCC); < 14 dBm (CE); < 30 dBm (SRRC)
+Dock – Klimaanlage
+Betriebsspannung
+48 V DC
+Klimaanlagentyp
+Kompressorbasierte Klimatisierung
+Dock – Reserveakku
+Akkukapazität
+12 Ah
+Ausgangsspannung
+12 V
+Akkutyp
+Bleiakku
+Akkulaufzeit
+> 4 Stunden
+
+Gemessen mit vollständig aufgeladenem Reserveakku bei 25 °C. Nach einem Stromausfall unterstützt das Dock Funktionen wie das Laden von Fluggeräten, die Klimaanlage, die Heizung der Abdeckung und Windgeschwindigkeitsanzeige nicht. Bitte stellen Sie die Stromversorgung umgehend wieder her.
+Dock – Netzwerkzugang
+Ethernet
+Adaptiver Ethernet-Anschluss mit 10/100/1000 MBit/s
+4G Mobilfunk
+Erfordert DJI Mobilfunk-Dongle 2
+
+Separat erhältlich. Dieser Dienst ist in einigen Ländern und Regionen nicht verfügbar. Bitte wenden Sie sich für Details an Ihren Händler vor Ort.
+Dock – Sensor
+Windgeschwindigkeitssensor
+Unterstützt
+Regensensor
+Unterstützt
+Umgebungstemperatursensor
+Unterstützt
+Wasserimmersionssensor
+Unterstützt
+Innenraum-Temperatursensor
+Unterstützt
+Innenraum-Feuchtigkeitssensor
+Unterstützt
+Dock – Sicherheitskamera (extern)
+Auflösung
+1920 × 1080
+Sichtfeld
+151°
+Zusatzbeleuchtung
+Weißes Hilfslicht
+Dock – Sicherheitskamera (intern)
+Auflösung
+1920 × 1080
+Sichtfeld
+151°
+Zusatzbeleuchtung
+Weißes Hilfslicht
+Dock – Blitzschutz
+Stromanschluss (AC)
+20 kA (Nennwert), erfüllt die Schutzstufenanforderungen gemäß EN 61643-11 Typ 2 und IEC 61643-1 Klasse Ⅱ.
+Ethernet-Anschluss
+10 kA (Igesamt), erfüllt Schutzklasse EN/IEC 61643-21 KATEGORIE C.
+Dock – Unterstützte Software
+Anwendungen
+DJI Enterprise App (verwendet mit Android-Smartphones zur Aufstellung und Inbetriebnahme)
+Cloud-Plattform
+FlightHub 2
+FlightHub 2 On-Premises Version
+FlightHub 2 FlightHub Sync
+DJI Cloud-API
+Dock – Erweiterungsfähigkeit
+Edge-Computing
+Unterstützt die Datenkommunikation mit externen Schaltern
+Fluggerät – Allgemein
+Gewicht
+1850 g
+
+Dieser Wert umfasst das Gewicht des Akkus, der Propeller und einer microSD-Karte, jedoch nicht die Nutzlasten von Drittanbietern. Das tatsächliche Gewicht kann aufgrund unterschiedlicher Chargenmaterialien und externer Faktoren variieren.
+Max. Gewicht beim Abheben
+2090 g
+Abmessungen
+377,7 × 416,2 × 212,5 mm (L × B × H, ohne Propeller)
+Diagonale Länge
+Diagonaler Achsabstand: 498,5 mm
+Radstand zwischen dem linken und rechten Frontmotor: 383,0 mm
+Radstand zwischen dem linken und rechten Heckmotor: 343,0 mm
+Achsabstand vorne nach hinten: 341,6 mm
+Max. Steiggeschwindigkeit
+6 m/s (Normalmodus)
+10 m/s (Sportmodus)
+Max. Sinkgeschwindigkeit
+6 m/s (Normalmodus)
+8 m/s (Sportmodus)
+Höchstgeschwindigkeit (auf NHN, bei Windstille)
+Normalmodus, bei aktivierter Hinderniserkennung: 15 m/s vorwärts fliegend, 12 m/s rückwärts fliegend, 10 m/s seitwärts fliegend
+Sportmodus: 21 m/s vorwärts fliegend, 19 m/s rückwärts fliegend, 15 m/s seitwärts fliegend
+
+Bei Verwendung mit dem DJI Dock wird nur der Normalmodus unterstützt.
+Max. Windwiderstandsfähigkeit
+Während des Betriebs: 12 m/s
+Bei Start/Landung: 12 m/s
+Max. Starthöhe
+6500 m
+Max. Flugzeit
+54 Minuten
+
+Getestet in einer kontrollierten Umgebung. Die spezifischen Testbedingungen sind wie folgt: Vorwärtsflug mit einer konstanten Geschwindigkeit von 12 m/s in einer windstillen Laborumgebung in 20 Metern Höhe über dem Meeresspiegel, im Fotomodus (ohne Fotoaufnahme während des Fluges), mit ausgeschalteter Hindernisvermeidung und einem Akkustand von 100 % bis 0 %. Die tatsächlichen Ergebnisse können je nach Umgebung, Verwendung und Firmware-Version variieren.
+Max. Schwebezeit
+47 Minuten
+
+Gemessen mit den Drohnen der Serie DJI Matrice 4D in einer windstillen Umgebung in 20 Metern Höhe über dem Meeresspiegel schwebend und einem Akkustand von 100 % bis 0 %. Die tatsächlichen Ergebnisse können je nach Umgebung, Verwendung und Firmware-Version variieren.
+Max. Einsatzradius
+10 km
+
+Gemessen bei ca. 25 °C mit einem Akkustand von 15 % des Ersatzakkus, einer windstillen Umgebung, einer Rundfluggeschwindigkeit von ca. 15 m/s und einem Schwebeflug von 18 Minuten. Die tatsächlichen Ergebnisse können je nach Umgebung, Verwendung und Firmware-Version variieren.
+Max. Flugdistanz
+43 km
+
+Gemessen mit einer Matrice 4D/4TD, die mit einer konstanten Geschwindigkeit von 16 m/s in einer windstillen Umgebung auf 20 Meter über Meeresspiegel und einem Akkustand von 100 % bis 0 % fliegt. Die tatsächlichen Ergebnisse können je nach Umgebung, Verwendung und Firmware-Version variieren.
+Max. Nickwinkel
+25° (Normalmodus)
+30° (Sportmodus)
+Max. Winkelgeschwindigkeit
+200°/s
+Globales Navigationssatellitensystem
+GPS + BeiDou + Galileo + QZSS + GLONASS (QZSS und GLONASS werden nur unterstützt, wenn das RTK-Modul aktiviert ist.)
+Schwebegenauigkeit (windstill oder windig)
+Vertikal:
+±0,1 m (mit Sichtpositionierung)
+±0,5 m (mit GNSS-Positionierung)
+±0,1 m (mit RTK-Positionierung)
+
+Horizontal:
+±0,3 m (mit Sichtpositionierung)
+±0,5 m (mit GNSS-Positionierung)
+±0,1 m (mit RTK-Positionierung)
+Betriebstemperatur
+-20 °C bis 50 °C
+Schutzart
+IP55
+Motormodell
+2611
+Propellertyp
+1364F faltbare, geräuscharme Anti-Eis-Propeller
+RTK-Modul
+Im Fluggerät integriert
+Signalleuchte
+Im Fluggerät integriert
+Fluggerät - Kameras
+Bildsensor
+DJI Matrice 4D:
+Weitwinkelkamera: 4/3 CMOS, Effektive Pixel: 20 MP
+Mittlere Telekamera: 1/1,3-Zoll-CMOS, Effektive Pixel: 48 MP
+Telekamera: 1/1,5-Zoll-CMOS, Effektive Pixel: 48 MP
+
+DJI Matrice 4TD:
+Weitwinkelkamera: 1/1,3-Zoll-CMOS, Effektive Pixel: 48 MP
+Mittlere Telekamera: 1/1,3-Zoll-CMOS, Effektive Pixel: 48 MP
+Telekamera: 1/1,5-Zoll-CMOS, Effektive Pixel: 48 MP
+Objektiv
+Weitwinkelkamera
+DJI Matrice 4D
+Sichtfeld: 84°
+Äquivalente Brennweite: 24 mm
+Blende: f/2,8 bis f/11
+Fokus: 1 m bis ∞
+DJI Matrice 4TD
+Sichtfeld: 82°
+Äquivalente Brennweite: 24 mm
+Blende: f/1,7
+Fokus: 1 m bis ∞
+
+Mittlere Telekamera
+Sichtfeld: 35°
+Äquivalente Brennweite: 70 mm
+Blende: f/2,8
+Fokus: 3 m bis ∞
+
+Telekamera
+Sichtfeld: 15°
+Äquivalente Brennweite: 168 mm
+Blende: f/2,8
+Fokus: 3 m bis ∞
+
+Objektiv-Entfeuchtung
+DJI Matrice 4D und DJI Matrice 4TD: Weitwinkel-, mittlere Tele- und Telekameras unterstützen alle das Entnebeln der Objektive
+ISO
+Normalmodus: ISO 100 bis 25600
+
+Nachtmodus:
+Matrice 4D
+Weitwinkelkamera: ISO 100 bis 204800
+Mittlere Telekamera: ISO 100 bis 409600
+Telekamera: ISO 100 bis 409600
+Matrice 4TD
+Weitwinkelkamera: ISO 100 bis 409600
+Mittlere Telekamera: ISO 100 bis 409600
+Telekamera: ISO 100 bis 819200
+Verschlusszeit
+DJI Matrice 4D
+Weitwinkelkamera:
+Elektronischer Verschluss: 2 bis 1/8000 s
+Mechanischer Verschluss: 2 bis 1/2000 s
+Mittlere Telekamera:
+2 bis 1/8000 s
+Telekamera:
+2 bis 1/8000 s
+
+DJI Matrice 4TD
+2 bis 1/8000 s
+Max. Bildgröße
+DJI Matrice 4D
+Weitwinkelkamera: 5280 × 3956
+Mittlere Telekamera: 8064 × 6048
+Telekamera: 8192 × 6144
+
+DJI Matrice 4TD
+Weitwinkelkamera: 8064 × 6048
+Mittlere Telekamera: 8064 × 6048
+Telekamera: 8192 × 6144
+Minimales Fotointervall
+DJI Matrice 4D: 0,5 s
+DJI Matrice 4TD: 0,7 s
+Fotomodi
+DJI Matrice 4D
+Weitwinkelkamera:
+Einzelaufnahme: 20 MP
+Intervall: 20 MP
+JPEG: 0,5/0,7/1/2/3/5/7/10/15/20/30/60 s
+JPEG + RAW: 2/3/5/7/10/15/20/30/60 s
+Intelligente Aufnahme: 20 MP
+Panorama: 20 MP (RAW-Aufnahme); 100 MP (zusammengesetztes Bild)
+Mittlere Telekamera:
+Einzelaufnahme: 12 MP, 48 MP
+Intervall: 12 MP, 48 MP
+JPEG: 0,5/0,7/1/2/3/5/7/10/15/20/30/60 s
+Intelligente Aufnahme: 12 MP
+Telekamera:
+Einzelaufnahme: 12 MP, 48 MP
+Intervall: 12 MP, 48 MP
+JPEG: 0,5/0,7/1/2/3/5/7/10/15/20/30/60 s
+Intelligente Aufnahme: 12 MP
+
+DJI Matrice 4TD
+Weitwinkelkamera:
+Einzelaufnahme: 12 MP, 48 MP
+Intervall: 12 MP, 48 MP
+JPEG: 0,7/1/2/3/5/7/10/15/20/30/60 s
+Intelligente Aufnahme: 12 MP
+Panorama: 12 MP (RAW-Aufnahme); 100 MP (zusammengesetztes Bild)
+Mittlere Telekamera:
+Einzelaufnahme: 12 MP, 48 MP
+Intervall: 12 MP, 48 MP
+JPEG: 0,7/1/2/3/5/7/10/15/20/30/60 s
+Intelligente Aufnahme: 12 MP
+Telekamera:
+Einzelaufnahme: 12 MP, 48 MP
+Intervall: 12 MP, 48 MP
+JPEG: 0,7/1/2/3/5/7/10/15/20/30/60 s
+Smart Capture: 12 MP
+Videocodec und Auflösung
+DJI Matrice 4D und DJI Matrice 4TD
+Videocodec: H.264, H.265
+Kodierungsstrategie: CBR, VBR
+Auflösung:
+4K: 3840 × 2160 bei 30 fps
+FHD: 1920 × 1080 bei 30 fps
+
+Video-Bitrate
+DJI Matrice 4D und DJI Matrice 4TD
+H264: 60 MBit/s
+H265: 40 MBit/s
+Unterstützte Dateisysteme
+exFAT
+Fotoformat
+DJI Matrice 4D:
+Weitwinkelkamera: JPEG/DNG (RAW)
+Mittlere Telekamera: JPEG
+Telekamera: JPEG
+
+DJI Matrice 4TD: JPEG
+Videoformat
+DJI Matrice 4D und DJI Matrice 4TD:MP4 (MPEG-4 AVC / H.264)
+Digitaler Zoom
+Telekamera: 16× (112 × Hybridzoom)
+Fluggerät - NIR-Zusatzbeleuchtung
+Infrarotbeleuchtung
+DJI Matrice 4TD:
+Sichtfeld: 5,7°±0,3°
+Fluggerät - Lasermodul
+Laser-Entfernungsmessung
+Normaler Einfallsbereich: 1800 m (1 Hz) bei einem angestrebten Reflexionsgrad von 20%*
+Bereich des schrägen Einfalls (1:5 schräger Abstand): 600 m (1 Hz)
+Blinde Zone: 1 m
+Genauigkeit der Entfernungsmessung:
+1 m bis 3 m: Systemfehler < 0,3 m, Zufallsfehler < 0,1 m für 1σ
+Andere Entfernungen: ±(0,2+0,0015D) (Zielentfernung in Metern)
+
+* Bei Regen oder Nebel kann es zu Leistungseinbußen kommen.
+Fluggerät - Infrarot-Wärmebildkamera (DJI Matrice 4TD)
+Wärmebildsensor
+Ungekühltes VOx-Mikrobolometer
+
+Setzen Sie die Objektive der Infrarotkamera NICHT starken Energiequellen wie Sonne, Lava oder Laserstrahlen aus. Andernfalls kann der Kamerasensor dauerhaft beschädigt werden.
+Auflösung
+640 × 512
+Pixelabstand
+12 μm
+Bildrate
+30 Hz
+Objektiv
+Diagonales Sichtfeld: 45°
+Äquivalente Brennweite: 53 mm
+Blende: f/1,0
+Fokus: 5 m bis ∞
+Empfindlichkeit
+≤ 50 mk bei F1.0
+Temperaturmessmethode
+Spotmessung, Bereichsmessung
+Temperaturmessbereich
+-40 °C bis 150 °C (hoher Verstärkungsmodus)
+0° bis 500 °C (niedriger Verstärkungsmodus)
+Palette
+Weiß heiß/Schwarz heiß/Tönung/Eisenrot/Heißes Eisen/Arktisch/Medizinisch/Fulgurit/Regenbogen 1/Regenbogen 2
+Fotoformat
+JPEG (8-Bit)
+R-JPEG (16 Bit)
+Videoauflösung
+1280×1024 bei 30fps (UHR-Infrarotbildfunktion aktiviert, Nachtszenenmodus nicht aktiviert)
+Andere Bedingungen: 640 × 512 bei 30 fps
+Video-Bitrate
+6,5 Mbit/s (H.264 640 × 512 bei 30 fps)
+5 Mbit/s (H.265 640 × 512 bei 30 fps)
+12 Mbit/s (H.264 1280 × 1024 bei 30 fps)
+8 Mbit/s (H.265 1280 × 1024 bei 30 fps)
+Videoformat
+MP4
+Fotomodi
+Einzelaufnahme
+Normalmodus: 640 × 512
+UHR-Infrarotbild-Modus: 1280 × 1024
+
+Intervall
+Normalmodus: 640 × 512, 0,7/1/2/3/5/7/10/15/20/30/60 s
+UHR-Infrarotbild-Modus: 1280 × 1024, 0,7/1/2/3/5/7/10/15/20/30/60 s
+Digitaler Zoom
+28-fach
+Infrarot-Wellenlänge
+8 bis 14 μm
+Infrarot-Temperaturmessgenauigkeit
+Hohe Verstärkung: ±2 °C oder ±2 %, je nachdem, welcher Wert größer ist
+Geringe Verstärkung: ±5 °C oder ±3 %, je nachdem, welcher Wert größer ist
+Fluggerät – Gimbal
+Stabilisierung
+Mechanische 3-Achsen-Kardanaufhängung (Neigen, Rollen, Schwenken)
+Mechanischer Bereich
+DJI Matrice 4D:
+Neigen: -140° bis +50°
+Rollen: -52° bis +52°
+Schwenken: -65° bis +65°
+
+DJI Matrice 4TD:
+Neigen: -140° bis +113°
+Rollen: -52° bis +52°
+Schwenken: -65° bis +65°
+Steuerbarer Bereich
+DJI Matrice 4D
+Neigen: -90° bis +35°
+Schwenken: Nicht steuerbar
+
+DJI Matrice 4TD
+Neigen: -90° bis +90°*
+Schwenken: Nicht steuerbar
+
+* Wenn sich der Gimbal der DJI Matrice 4TD in einem Winkel zwischen +70° und +90° nach oben neigt, werden die Weitwinkelkamera, die mittlere Telekamera und die Infrarot-Wärmebildkamera durch den Drohnenkörper verdeckt.
+Max. Steuergeschwindigkeit (Neigen)
+100°/s
+Winkelschwingungsbereich
+±0,005°
+Fluggerät – Erkennung
+Erkennungssystem
+Omnidirektionale duale Sichtsensoren, ergänzt durch einen 3D Infrarotsensor an der Unterseite des Fluggeräts.
+Nach vorne
+Messbereich: 0,5 m bis 20 m
+Erfassungsreichweite: 0,5 m bis 200 m
+Effektive Erkennungsgeschwindigkeit: Fluggeschwindigkeit ≤ 15 m/s
+Sichtfeld: Horizontal: 95°, vertikal: 90°
+Nach hinten
+Messbereich: 0,5 m bis 20 m
+Effektive Erkennungsgeschwindigkeit: Fluggeschwindigkeit ≤ 12 m/s
+Sichtfeld: Horizontal: 95°, vertikal: 90°
+Seitlich
+Messbereich: 0,5 m bis 16 m
+Effektive Erkennungsgeschwindigkeit: Fluggeschwindigkeit ≤10 m/s
+Sichtfeld: Horizontal: 90°, vertikal: 90°
+Nach oben
+Messbereich: 0,5 m bis 20 m
+Effektive Erkennungsgeschwindigkeit: Fluggeschwindigkeit ≤6 m/s
+Sichtfeld: Vorne und hinten 95°, links und rechts 90°
+Nach unten
+Messbereich: 0,5 m bis 16 m
+Effektive Erkennungsgeschwindigkeit: Fluggeschwindigkeit ≤6 m/s
+Sichtfeld: Vorne und hinten 90°, links und rechts 95°
+Betriebsumgebung
+Vorne, hinten, oben und unten: Oberflächen mit erkennbaren Mustern bei ausreichenden Lichtverhältnissen (Lux > 0,1)
+Links und rechts: Oberfläche mit diffuser Remission > 20 % (z. B. Wände, Bäume, Personen) und angemessene Beleuchtung (Lux > 6)
+Fluggerät – Videoübertragung
+Videoübertragungssystem
+DJI O4+ Enterprise
+Qualität der Live-Ansicht
+720p/30fps, 1080p/30fps (mit DJI RC Plus 2 Enterprise)
+540p/30fps, 720p/30fps, 1080p/30fps (mit DJI Dock 3 und DJI FlightHub 2)
+Betriebsfrequenz
+2,400 bis 2,4835 GHz
+5,150 bis 5,250 GHz (CE: 5,170 bis 5,250 GHz)
+5,725 bis 5,850 GHz
+
+Die unterstützten Betriebsfrequenzbänder und ihre entsprechende Verfügbarkeit variieren je nach Land/Region. Weitere Einzelheiten erhalten Sie in den örtlichen Gesetzen und Vorschriften.
+Max. Übertragungsreichweite (ohne Hindernisse und Interferenzen)
+FCC: 25 km
+CE: 12 km
+SRRC: 12 km
+MIC: 12 km
+
+Gemessen in einer Außenumgebung ohne Hindernisse oder Interferenzen. Die obigen Daten zeigen für jeden Standard die weiteste Kommunikationsreichweite für einen Flug in eine Richtung, ohne Rückflug. Während des Fluges ist immer die Warnmeldung zur Rückkehr in DJI FlightHub 2 oder der DJI Pilot App zu beachten.
+Max. Übertragungsreichweite (ohne Hindernisse, mit Interferenzen)
+Starke Interferenz (z. B. dichte Bebauung, Wohngebiete): 1,5 bis 5 km
+Mittlere Störung (vorstädtische Flächen, Stadtparks usw.): 5 bis 15 km
+Geringe Störung (offene Flächen, abgelegene Gebiete usw.): 15 bis 25 km
+
+Die Daten wurden gemäß FCC-Standards in ungehinderten Umgebungen mit typischen Störungen getestet. Dient nur als Referenz und bietet keine Garantie für die tatsächliche Flugdistanz. In Umgebungen mit Hindernissen wird empfohlen, das D-RTK 3 Relais (Festinstallationsversion) zu installieren.
+Max. Download-Geschwindigkeit
+20 MB/s (mit DJI Dock 3)
+20 MB/s (mit DJI RC Plus 2 Enterprise)
+
+Gemessen in einer Laborumgebung mit geringer Interferenz in Ländern/Regionen, die sowohl 2,4 GHz als auch 5,8 GHz unterstützen. Download-Geschwindigkeiten können je nach tatsächlichen Bedingungen variieren.
+Niedrigste Latenz
+Die Latenz für die Videoübertragung vom Fluggerät zum Dock beträgt ca. 100 Millisekunden (abhängig von den tatsächlichen Umgebungsbedingungen).
+Die Latenz für die Videoübertragung vom Dock zum DJI FlightHub 2 wird durch die tatsächlichen Netzwerkbedingungen und die Konfiguration des Computers beeinflusst.
+Antenne
+8 Antennen, 2T4R
+Strahlungsleistung (EIRP)
+2,4 GHz: < 33 dBm (FCC), < 20 dBm (CE/SRRC/MIC)
+5,1 GHz (CE: 5,170 bis 5,250 GHz): < 23 dBm (FCC/CE)
+5,8 GHz: < 33 dBm (FCC/SRRC), < 14 dBm (CE)
+Sonstiges
+Unterstützt DJI Mobilfunk-Dongle 2
+
+Separat erhältlich. Dieser Dienst ist in einigen Ländern und Regionen nicht verfügbar. Bitte wenden Sie sich für Details an Ihren Händler vor Ort.
+Fluggerät – Speicherung
+Unterstützte Speicherkarten
+Fluggerät:
+U3/Klasse10/V30 oder höher wird unterstützt. Eine Liste der empfohlenen microSD-Karten finden Sie weiter unten.
+Empfohlene microSD-Karten
+Lexar 1066x 64 GB U3 A2 V30 microSDXC
+Lexar 1066x 128 GB U3 A2 V30 microSDXC
+Lexar 1066x 256 GB U3 A2 V30 microSDXC
+Lexar 1066x 512 GB U3 A2 V30 microSDXC
+Kingston Canvas Go! Plus 64 GB U3 A2 V30 microSDXC
+Kingston Canvas Go! Plus 128 GB U3 A2 V30 microSDXC
+Kingston Canvas Go! Plus 256 GB U3 A2 V30 microSDXC
+Kingston Canvas Go! Plus 512 GB U3 A2 V30 microSDXC
+Fluggerät – Akku
+Kapazität
+6768 mAh
+Spannung
+22,14 V
+Max. Ladespannung
+25,5 V
+Zellentyp
+Li-Ion 6S
+Chemische Zusammensetzung
+LiNiMnCoO2
+Energie
+149,9 Wh
+Gewicht
+640 g
+Anzahl Zyklen
+400
+Ladetemperatur
+5 °C bis 45 °C
+Entladerate
+4C
+Max. Ladeleistung
+1,8C
+Niedrigtemperaturladung
+Unterstützt das Laden bei niedrigen Temperaturen durch die Heizfunktion
+Fluggerät – Netzteil
+Eingang
+100 bis 240 V (AC), 50/60 Hz, 3 A
+Ausgangsleistung
+240 W
+Ausgang
+Gesamt: 240 W maximale Ausgangsleistung; USB-C-Anschluss: 65 W maximale Ausgangsleistung
+
+Beim gleichzeitigen Laden über zwei Anschlüsse beträgt die maximale Ausgangsleistung des USB-C-Anschlusses 45 W.
+Akkuladestation
+Eingang
+SDC: 16,8 V bis 25,5 V, 12,1 A
+Nennleistung
+240 W
+Ladetyp
+3 Akkus werden nacheinander geladen
+Unterstützt Standardmodus (100 % Akkuladestand) und Ready-to-Fly-Modus (90 % Akkuladestand)
+Kompatibler Akku
+DJI Matrice 4D Serie - Akku
+Ladetemperatur
+5 °C bis 40 °C
+DJI RC Plus 2 Enterprise
+Max. Übertragungsreichweite (ohne Hindernisse und Interferenzen)
+FCC: 25 km
+CE: 12 km
+SRRC: 12 km
+MIC: 12 km
+
+Gemessen in einer Umgebung ohne Hindernisse und Interferenzen. Die obigen Daten zeigen für jeden Standard die weiteste Kommunikationsreichweite für einen Flug in eine Richtung, ohne Rückflug. Bitte achten Sie während des Fluges auf Warnmeldung zur Rückkehr in der DJI Pilot App.
+Betriebsfrequenz der Videoübertragung
+2,4000 bis 2,4835 GHz
+5,725 bis 5,850 GHz (Nicht unterstützt in Japan)
+5,2 GHz (nur Empfang)
+
+Die zulässige Betriebsfrequenz variiert je nach Land und Region. Weitere Informationen erhalten Sie in den örtlichen Gesetzen und Vorschriften.
+Antenne
+2T4R, eingebaute Mehrstrahlantenne mit hoher Verstärkung
+Strahlungsleistung (EIRP) der Videoübertragung
+2,4 GHz: < 33 dBm (FCC), < 20 dBm (CE/SRRC/MIC)
+5,2 GHz: < 23 dBm (CE)
+5,8 GHz: < 33 dBm (FCC), < 14 dBm (CE), < 30 dBm (SRRC)
+4G Übertragung
+DJI Mobilfunk-Dongle 2
+
+Separat erhältlich. Dieser Dienst ist in einigen Ländern und Regionen nicht verfügbar. Bitte wenden Sie sich für Details an Ihren Händler vor Ort.
+Wi-Fi-Protokoll
+Wi-Fi Direct, Drahtlose Anzeige, IEEE 802.11a/b/g/n/ac/ax
+Unterstützt 2×2 MIMO-Wi-Fi, unterstützt simultanes Dualband (DBS) für Dual-MAC, mit Datenraten von bis zu 1774,5 MBit/s (2×2 + 2×2 11ax simultanes Dualband)
+Wi-Fi Betriebsfrequenz
+2,4000 bis 2,4835 GHz
+5,150 bis 5,250 GHz
+5,725 bis 5,850 GHz
+
+Die 5,8- und 5,2-GHz-Frequenzen sind in einigen Ländern verboten. In einigen Ländern ist die 5,2-GHz-Frequenz nur für die Verwendung in Innenräumen zugelassen.
+Wi-Fi Senderleistung (EIRP)
+2,4 GHz: < 26 dBm (FCC), < 20 dBm (CE/SRRC/MIC)
+5,2 GHz: < 26 dBm (FCC), < 23 dBm (CE/SRRC/MIC)
+5,8 GHz: < 26 dBm (FCC/SRRC), < 14 dBm (CE)
+Bluetooth-Protokoll
+Bluetooth 5.2
+Bluetooth-Betriebsfrequenz
+2,400 bis 2,4835 GHz
+Bluetooth-Strahlungsleistung (EIRP)
+< 10 dBm
+Bildschirmauflösung
+1920 × 1200
+Bildschirmgröße
+7,02 Zoll
+Bildrate des Bildschirms
+60 fps
+Helligkeit
+1400 Nits
+Steuerung über Touchscreen
+10-Punkt-Multi-Touch
+Integrierter Akku
+2S2P 18650 Lithium-Ionen-Akku mit hoher Energiedichte (6500 mAh bei 7,2 V) 46,8 Wh
+Externer Akku
+Wahlweise, WB37 (4920 mAh bei 7,6 V) 37 Wh
+Ladetyp
+Unterstützt PD-Schnellladung mit einem maximalen 20 V/3,25 A USB-C-Ladegerät
+Speicherkapazität
+RAM 8G + ROM 128G UFS + erweiterbarer Speicher über microSD-Karte
+Ladezeit
+2 Stunden für internen Akku; 2 Stunden für internen und externen Akku.
+
+Wenn die Fernsteuerung ausgeschaltet ist und ein Standard-DJI-Ladegerät verwendet wird.
+Laufzeit internes Akkus
+3,8 Stunden
+Laufzeit externes Akkus
+3,2 Stunden
+Ausgangsanschluss
+HDMI 1.4
+Indikatoren
+Status-LED, Akkustand-LED, Verbindungsstatus-LED, dreifarbiges Licht, Helligkeit an Umgebungslicht anpassbar
+Lautsprecher
+Unterstützt Buzzer
+Audio
+Array-Mikrofon
+Betriebstemperatur
+-20 °C bis 50 °C
+Lagertemperatur
+Innerhalb eines Monats: -30 °C bis 45 °C
+Ein bis drei Monate: -30 °C bis 35 °C
+Drei Monate bis ein Jahr: -30 °C bis 30 °C
+Ladetemperatur
+5 °C bis 40 °C
+Unterstützte Fluggeräte
+Unterstützt Matrice 4TD/4D, Matrice 4T/4E
+Globales Navigationssatellitensystem
+GPS, Galileo, BeiDou.
+Abmessungen
+268 × 163 × 94,5 mm (L × B × H)
+
+Breite einschließlich gefalteter Außenantenne, Dicke einschließlich Griff und Steuerknüppel.
+Gewicht
+1,15 kg (ohne externen Akku)
+Modell
+TKPL 2
+Systemversion
+Android 11
+Externe Schnittstellen
+HDMI 1.4, SD 3.0, Typ-C mit OTG-Unterstützung, max. 65 W PD-Laden, USB-A mit USB 2.0-Unterstützung
+Zubehör
+Optionaler Gurt/Taillenstütze
+AL1 Scheinwerfer
+Gewicht
+99 g (einschließlich Halterung)
+91 g (ohne Halterung)
+
+Für die Installation an einem Fluggerät der Matrice 4D Serie ist keine Montagehalterung erforderlich.
+Abmessungen
+95 × 164 × 30 mm (L × B × H, einschließlich Halterung)
+79 × 164 × 28 mm (L × B × H, ohne Halterung)
+Max. Leistung
+32 W
+Beleuchtungsstärke
+4,3 ± 0,2 lx bei 100 Metern, 17 ± 0,2 lx bei 50 Metern
+
+Die Daten wurden in einer Laborumgebung gemessen, wobei der Scheinwerfer separat am Fluggerät installiert war und die Umgebungstemperatur 25 °C betrug.
+Effektiver Beleuchtungswinkel
+23° (10 % relative Beleuchtung)
+Effektiver Beleuchtungsbereich
+1300 Quadratmeter bei 100 Metern (10 % relative Beleuchtung, Normalmodus)
+2200 Quadratmeter bei 100 Metern (10 % relative Beleuchtungsstärke, Modus mit weitem Sichtfeld)
+Betriebsart
+Unterstützt die Modi Dauerlicht und Stroboskop.
+Mechanischer Bereich Gimbal
+Neigen: -140° bis +50°
+Steuerbarer Bereich Gimbal
+Neigen: -90° bis +35°
+Gimbal Maximalsteuerungsgeschwindigkeit (Neigen)
+120°/s
+Genauigkeit der Gimbal-Ausrichtung
+±0,1°
+Betriebstemperatur
+-20 °C bis 50 °C
+Schutzart
+IP55
+Befestigung
+Von Hand festgezogene Schnellwechselschraube
+
+Beim Anbringen am Fluggerät die Schrauben festziehen und eine ordnungsgemäße Abdichtung der Schnittstelle sicherstellen. Bei Verwendung mit dem DJI Dock nutzen Sie bitte den mitgelieferten Sechskantschlüssel, um die Schrauben wieder anzuziehen.
+Unterstützte Fluggeräte
+Unterstützt Matrice 4TD/4D, Matrice 4T/4E
+AS1 Lautsprecher
+Gewicht
+92,5 g (einschließlich Halterung)
+90 g (ohne Halterung)
+
+Es ist keine Halterung erforderlich, wenn die Installation an Matrice 4D Series Flugzeugen erfolgt.
+Abmessungen
+73 × 70 × 52 mm (L × B × H, einschließlich Halterung)
+73 × 70 × 47 mm (L × B × H, ohne Halterung)
+Max. Leistung
+15 W
+Max. Lautstärke
+In 1 Meter Entfernung kann er 114 Dezibel erreichen (114 dB bei 1 m).
+
+Die Daten wurden in einer Laborumgebung bei 25 °C gemessen. Die tatsächlichen Bedingungen können aufgrund der Softwareversion, der Audioquelle, der spezifischen Umgebung und anderer Faktoren leicht abweichen. Die endgültige Wirkung hängt von der tatsächlichen Nutzung ab.
+Effektive Übertragungsreichweite
+300 m
+
+Die Daten wurden in einer Laborumgebung bei 25 °C gemessen. Die tatsächlichen Bedingungen können aufgrund der Softwareversion, der Audioquelle, der spezifischen Umgebung und anderer Faktoren leicht abweichen. Die endgültige Wirkung hängt von der tatsächlichen Nutzung ab.
+Übertragungsmodus
+Echtzeitübertragung, Aufzeichnung & Übertragung, Dateieingabe (unterstützt gleichzeitige Übertragung und Wiedergabe), Text-zu-Sprache*
+
+* Unterstützt derzeit nur Englisch und Mandarin-Chinesisch.
+Betriebstemperatur
+-20 °C bis 50 °C
+Schutzart
+IP55
+Befestigung
+Von Hand festgezogene Schnellwechselschraube
+
+Beim Anbringen am Fluggerät die Schrauben festziehen und eine ordnungsgemäße Abdichtung der Schnittstelle sicherstellen. Bei Verwendung mit dem DJI Dock nutzen Sie bitte den mitgelieferten Sechskantschlüssel, um die Schrauben wieder anzuziehen.
+Unterstützte Fluggeräte
+Unterstützt Matrice 4TD/4D, Matrice 4T/4E
+Matrice 4 Modul zur Hinderniserkennung
+Gewicht
+235 g
+Abmessungen
+103,3 × 64 × 85,8 mm (L × B × H)
+Schutzart
+IP55
+Betriebstemperatur
+-20 °C bis 50 °C
+Erkennungssystem
+Kombination aus rotierendem LiDAR und Millimeterwellenradar
+Sichtfeld
+LiDAR: Vertikal 360°, Horizontal 60°
+Millimeterwellenradar: Vertikal 90°, Horizontal 90°
+Messbereich
+100 m maximale Erfassungsreichweite
+Effektive Erkennungsgeschwindigkeit
+Fluggeschwindigkeit ≤ 15 m/s (Hindernistyp: 12 mm Aluminium-Stahlkern-Litze)
+
+1. Die Fähigkeiten zur Hindernisvermeidung und -umgehung können aufgrund unterschiedlicher Umgebungen (Wolken, Nebel, Regen, Schnee) sowie des Materials, der Position und der Form des Zielobjekts variieren.
+2. Aufgrund der Leistungseinschränkungen des Sicherheitssystems kann das Fluggerät schnell bewegliche Objekte nicht aktiv ausweichen. Bitte seien Sie beim Fliegen in solchen Umgebungen vorsichtig.
+Fahrzeugmontierte Gimbal-Halterung
+Gewicht
+Rechte Halterung und Gimbal-Stütze: 440 g
+Linke Halterung: 155 g
+Abmessungen
+Rechte Halterung und Gimbal-Stütze: 112,8 × 152,2 × 157,8 mm (L × B × H)
+Linke Halterung: 126,3 × 172,9 × 70,3 mm (L × B × H)
+Stromversorgungsspannung
+14 V
+Schutzart
+IP55
+Betriebstemperatur
+-30 °C bis 50 °C
+Flugabbruchsystem (FTS) (nur in Europa verkauft)
+Gewicht
+10,9 g
+Abmessungen
+41,8 × 25,6 × 7,3 mm (L × B × H, ohne USB-Anschluss)
+Stromversorgungsspannung
+5 V
+Betriebstemperatur
+-20 °C bis 50 °C
+Kommunikationsmethode
+4G LTE (erfordert DJI Mobilfunk-Dongle 2*)
+
+* Separat erhältlich. Dieser Dienst ist in einigen Ländern und Regionen nicht verfügbar. Bitte wenden Sie sich für Details an Ihren Händler vor Ort.
+Anmerkungen
+Die Begriffe HDMI, HDMI High-Definition Multimedia Interface, HDMI-Aufmachung (HDMI Trade Dress) und die HDMI-Logos sind Marken oder eingetragene Marken von HDMI Licensing Administrator, Inc.
+
+
+
+Produktkategorien
+
+Hobbybereich
+Professionell
+Enterprise
+Komponenten
+
+Serviceplan
+
+DJI Care
+DJI Care Refresh
+
+Wo kaufen
+
+DJI Online Store
+Flagshipstores
+Händler finden
+Enterprise-Händler
+Händler Für DJI Agrartechnik
+Profi-Händler
+Die DJI Store App
+
+Kooperation
+
+Händler werden
+
+Fliege Sicher
+
+Fliege Sicher
+DJI Flugtipps
+
+Support
+
+Kundenservice
+Reparaturservice
+Hilfe Center
+Kundendienstrichtlinien
+Download-Center
+
+Entdecken
+
+Neuigkeiten
+STEAM Education
+DJI Kauftipps
+DJI Affiliate Programm
+
+Community
+
+SkyPixel
+DJI Forum
+Entwickler
+
+Newsletter
+
+Bleib immer auf dem Laufenden
+
+Über uns
+Kontakt
+Dealer Portal
+Karriere
+DatenschutzrichtlinienVerwendung von CookiesNutzungsbedingungenImpressumCookie-Einstellungen
+Copyright © 2026 DJI Alle Rechte vorbehalten
+Feedback geben

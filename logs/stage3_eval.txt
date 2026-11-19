@@ -1,0 +1,17 @@
+roboflow_001121.jpg      wahr=LIP-YE 351   gelesen=LIP-VE 351   roh=LIP_E351   konf=0.63 fehler=1
+roboflow_001124.jpg      wahr=LIP-T 5555   gelesen=LIP-T 5555   roh=LIPT5555   konf=0.52 fehler=0
+roboflow_001130.jpg      wahr=LIP-KS 16    gelesen=LIP-KS 16    roh=LIPKS16    konf=0.63 fehler=0
+roboflow_001136.jpg      wahr=LIP-IA 133   gelesen=IP-IA 133    roh=IPIA133_   konf=0.65 fehler=1
+roboflow_001139.jpg      wahr=LIP-GE 90    gelesen=G-E 90       roh=GE90       konf=0.48 fehler=3
+roboflow_001142.jpg      wahr=LIP-DI 202   gelesen=LQP-D 4      roh=LQPD___    konf=0.46 fehler=5
+roboflow_001145.jpg      wahr=LIP-EB 911   gelesen=IP-EB 981    roh=3PEB9E1    konf=0.36 fehler=2
+roboflow_001148.jpg      wahr=LIP-YN 581   gelesen=LIP-YN 581   roh=LIP_N581   konf=0.64 fehler=0
+roboflow_001151.jpg      wahr=LIP-06431    gelesen=LI-P 6431    roh=__P_431    konf=0.45 fehler=1
+roboflow_001154.jpg      wahr=LIP-RG 276   gelesen=LI-BG 3      roh=__LIBGZ_   konf=0.23 fehler=5
+roboflow_001160.jpg      wahr=Y-873 536    gelesen=Y-873 535    roh=Y87353_    konf=0.65 fehler=1
+roboflow_001163.jpg      wahr=LIP-OA 42E   gelesen=LIP-OA 42E   roh=LIP0A42E   konf=0.73 fehler=0
+roboflow_001169.jpg      wahr=Y-881 695    gelesen=Y-881 695    roh=Y881695_   konf=0.89 fehler=0
+
+Exakt richtig: 5/13 (38 %)   CER: 19.0 %
+Details: C:\BA\runs_stage3\eval_kennzeichen
+FERTIG (Exitcode 0) 

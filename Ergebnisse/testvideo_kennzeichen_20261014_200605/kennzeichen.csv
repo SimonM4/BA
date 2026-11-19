@@ -1,0 +1,7 @@
+﻿track_id;kennzeichen;ocr_konfidenz;uebereinstimmung;lesungen;frames;erste_sichtung_s;letzte_sichtung_s;fahrzeug_klasse;plausibel;crop
+1;K-DG 105;0.518;0.958;25;25;0.0;1.92;;False;crops/track_0001.jpg
+2;U-I 4E;0.214;0.083;25;25;2.0;3.92;;False;crops/track_0002.jpg
+3;L-I 8;0.36;0.428;7;25;4.0;5.92;;False;crops/track_0003.jpg
+4;U-E 193;0.645;0.434;25;25;6.0;7.92;;True;crops/track_0004.jpg
+5;AN-HF 245;0.4;0.37;25;25;8.0;9.92;;False;crops/track_0005.jpg
+6;Y-887 465;0.695;0.966;25;25;10.0;11.92;;True;crops/track_0006.jpg

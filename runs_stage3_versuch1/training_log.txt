@@ -1,0 +1,13 @@
+[stage3] archive (4).zip: 35500 Bilder, Klassen: 0123456789ABCDEFGHIJKLMNPQRSTUVWXYZ
+[stage3] DeutschEinzelneZahlen.zip: 3009 Bilder, Klassen: 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
+[stage3] 'kein Zeichen'-Beispiele aus C:\BA\Daten\kennzeichen_detection_dataset: 3000
+[stage3] Laden: 15.7s
+[stage3] 41509 Bilder, 37 Klassen: 0 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z _
+[stage3] Train 35280 / Val 6229
+[stage3] Modell: 0.32 Mio. Parameter, Torch-Threads: 14
+[stage3] Epoche  1/25 loss=2.9413 val_acc=0.6749 val_acc_drohne=0.6293 (141s)
+[stage3] Epoche  2/25 loss=1.4543 val_acc=0.9306 val_acc_drohne=0.8568 (306s)
+[stage3] Epoche  3/25 loss=0.8435 val_acc=0.9387 val_acc_drohne=0.8696 (232s)
+[stage3] Epoche  4/25 loss=0.7111 val_acc=0.9825 val_acc_drohne=0.9486 (221s)
+[stage3] Epoche  5/25 loss=0.6492 val_acc=0.9873 val_acc_drohne=0.9644 (210s)
+^C

@@ -1,0 +1,1 @@
+[18] LeCun et al. 1998 – http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf selbst herunterladen und als 18_LeCun_1998_Gradient-Based_Learning.pdf hier ablegen.

@@ -1,0 +1,1688 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Simon//Terminplan Bachelorarbeit//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Bachelorarbeit
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ba-plan-20261111-A-000@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261111T090000
+DTEND;TZID=Europe/Berlin:20261111T120000
+SUMMARY:BA: Exposé: Platzhalter und Eckdaten
+DESCRIPTION:Fertig\, wenn: Name\, Matrikelnummer\, Referent\, Korreferent\,
+  exakte Anmelde- und Abgabedaten und Partnerunternehmen stehen im Exposé.
+ \n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten 
+ nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den nächs
+ ten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Exposé: Platzhalter und Eckdaten
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261111-B-001@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261111T130000
+DTEND;TZID=Europe/Berlin:20261111T160000
+SUMMARY:BA: Exposé: Inhalt prüfen und anpassen
+DESCRIPTION:Fertig\, wenn: Hypothesen\, Zuverlässigkeitskriterium und Meth
+ ode gelesen und in eigenen Worten angepasst\; offene Fragen für den Refer
+ enten notiert.\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit 
+ dem kleinsten nächsten Schritt beginnen.\nNicht fertig? Rest notieren und
+  in den nächsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Exposé: Inhalt prüfen und anpassen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261112-A-002@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261112T090000
+DTEND;TZID=Europe/Berlin:20261112T120000
+SUMMARY:BA: Exposé: Korrekturlesen
+DESCRIPTION:Fertig\, wenn: Exposé komplett gelesen und korrigiert\; Litera
+ turkorrekturen aus dem Projekt-Doc expose_stand in BA_Gliederung.docx übe
+ rnommen.\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kl
+ einsten nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in de
+ n nächsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Exposé: Korrekturlesen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261112-B-003@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261112T130000
+DTEND;TZID=Europe/Berlin:20261112T160000
+SUMMARY:BA: Exposé exportieren und an Referent schicken
+DESCRIPTION:Fertig\, wenn: PDF exportiert\; Mail mit Exposé\, Terminvorsch
+ lag und Frage zum Zuverlässigkeitskriterium ist raus.\n\nStart: Handy weg
+ \, nur die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt be
+ ginnen.\nNicht fertig? Rest notieren und in den nächsten Puffer-Block sch
+ ieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Exposé exportieren und an Referent schicken
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261112-M-004@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:BA: Meilenstein: Exposé verschickt
+DESCRIPTION:Zwischenziel des persönlichen Plans: Bachelorarbeit fertig bis
+  30.12.2026 (ab 02.01. Winterreise).
+CATEGORIES:Bachelorarbeit
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261113-A-005@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261113T090000
+DTEND;TZID=Europe/Berlin:20261113T120000
+SUMMARY:BA: Testmenge: Quellen sichten
+DESCRIPTION:Fertig\, wenn: Auswahlregeln notiert (deutsch\, einzeilig\, les
+ bar) und Bildquellen für mindestens 90 neue Kennzeichen festgelegt.\n\nSt
+ art: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten nächs
+ ten Schritt beginnen.\nNicht fertig? Rest notieren und in den nächsten Pu
+ ffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Testmenge: Quellen sichten
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261113-B-006@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261113T130000
+DTEND;TZID=Europe/Berlin:20261113T160000
+SUMMARY:BA: Testmenge: 30 Kennzeichen erfassen
+DESCRIPTION:Fertig\, wenn: kennzeichen_text_gt.csv hat mindestens 43 geprü
+ fte Einträge.\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit 
+ dem kleinsten nächsten Schritt beginnen.\nNicht fertig? Rest notieren und
+  in den nächsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Testmenge: 30 Kennzeichen erfassen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261114-A-007@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261114T090000
+DTEND;TZID=Europe/Berlin:20261114T120000
+SUMMARY:BA: Testmenge: weitere 30 Kennzeichen
+DESCRIPTION:Fertig\, wenn: GT-CSV hat mindestens 73 Einträge.\n\nStart: Ha
+ ndy weg\, nur die nötigen Fenster offen\, mit dem kleinsten nächsten Sch
+ ritt beginnen.\nNicht fertig? Rest notieren und in den nächsten Puffer-Bl
+ ock schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Testmenge: weitere 30 Kennzeichen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261114-B-008@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261114T130000
+DTEND;TZID=Europe/Berlin:20261114T160000
+SUMMARY:BA: Testmenge: weitere 30 Kennzeichen
+DESCRIPTION:Fertig\, wenn: GT-CSV hat mindestens 100 Einträge.\n\nStart: H
+ andy weg\, nur die nötigen Fenster offen\, mit dem kleinsten nächsten Sc
+ hritt beginnen.\nNicht fertig? Rest notieren und in den nächsten Puffer-B
+ lock schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Testmenge: weitere 30 Kennzeichen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261114-W-009@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261114T160000
+DTEND;TZID=Europe/Berlin:20261114T163000
+SUMMARY:BA: Wochen-Check
+DESCRIPTION:15 Minuten: Was ist erledigt? Was hängt und warum? Restpunkte 
+ auf die Puffer-Blöcke verteilen.\n10 Minuten: Nächste Woche ansehen – 
+ sind die Aufgaben klar genug\, um morgens sofort anzufangen?\n5 Minuten: S
+ tand kurz notieren.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Wochen-Check
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261116-A-010@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261116T090000
+DTEND;TZID=Europe/Berlin:20261116T120000
+SUMMARY:BA: Duplikatprüfung Test gegen Training
+DESCRIPTION:Fertig\, wenn: Skript (z. B. perzeptueller Hash) läuft\, Liste
+  möglicher Beinahe-Duplikate liegt vor (vgl. Laroca et al. 2023).\n\nStar
+ t: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten nächste
+ n Schritt beginnen.\nNicht fertig? Rest notieren und in den nächsten Puff
+ er-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Duplikatprüfung Test gegen Training
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261116-B-011@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261116T130000
+DTEND;TZID=Europe/Berlin:20261116T160000
+SUMMARY:BA: Testmenge einfrieren und Baseline
+DESCRIPTION:Fertig\, wenn: Duplikate ersetzt\, Testmenge per git-Tag eingef
+ roren\, Baseline mit eval_pipeline.py auf der neuen Testmenge gelaufen.\n\
+ nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten nä
+ chsten Schritt beginnen.\nNicht fertig? Rest notieren und in den nächsten
+  Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Testmenge einfrieren und Baseline
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261117-A-012@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261117T090000
+DTEND;TZID=Europe/Berlin:20261117T120000
+SUMMARY:BA: Kaggle-Logs Stufe 1 und 2 sichern
+DESCRIPTION:Fertig\, wenn: results.csv\, args.yaml und Trainingskurven lieg
+ en lokal unter runs_stage1 und runs_stage2.\n\nStart: Handy weg\, nur die 
+ nötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.\nNi
+ cht fertig? Rest notieren und in den nächsten Puffer-Block schieben – n
+ icht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Kaggle-Logs Stufe 1 und 2 sichern
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261117-B-013@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261117T130000
+DTEND;TZID=Europe/Berlin:20261117T160000
+SUMMARY:BA: Zuverlässigkeitskriterium festlegen
+DESCRIPTION:Fertig\, wenn: Kriterium für Finden und Lesen (inkl. Wilson-In
+ tervall und relativem Kriterium) schriftlich fixiert\; Feedback des Refere
+ nten eingearbeitet\, falls vorhanden.\n\nStart: Handy weg\, nur die nötig
+ en Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.\nNicht fe
+ rtig? Rest notieren und in den nächsten Puffer-Block schieben – nicht d
+ en Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Zuverlässigkeitskriterium festlegen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261118-A-014@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261118T090000
+DTEND;TZID=Europe/Berlin:20261118T120000
+SUMMARY:BA: Stufe 3: Fehleranalyse
+DESCRIPTION:Fertig\, wenn: Fehler der Baseline nach Typ gezählt (Segmentie
+ rung\, Verwechslung\, fehlendes Zeichen)\; Problem mit dem „L“ am EU-F
+ eld belegt.\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem
+  kleinsten nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in
+  den nächsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Stufe 3: Fehleranalyse
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261118-B-015@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261118T130000
+DTEND;TZID=Europe/Berlin:20261118T160000
+SUMMARY:BA: Stufe 3: Segmentierung verbessern
+DESCRIPTION:Fertig\, wenn: Erster Fix implementiert und an 10 Problemfälle
+ n getestet.\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem
+  kleinsten nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in
+  den nächsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Stufe 3: Segmentierung verbessern
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261119-A-016@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261119T090000
+DTEND;TZID=Europe/Berlin:20261119T120000
+SUMMARY:BA: Stufe 3: Fix fertigstellen
+DESCRIPTION:Fertig\, wenn: Fix auf der ganzen Testmenge gelaufen\; Exact Ma
+ tch und CER vorher/nachher dokumentiert.\n\nStart: Handy weg\, nur die nö
+ tigen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.\nNicht
+  fertig? Rest notieren und in den nächsten Puffer-Block schieben – nich
+ t den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Stufe 3: Fix fertigstellen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261119-B-017@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261119T130000
+DTEND;TZID=Europe/Berlin:20261119T160000
+SUMMARY:BA: Stufe 3: Vergleich absichern
+DESCRIPTION:Fertig\, wenn: McNemar-Test alt gegen neu gerechnet\; Entscheid
+ ung für die Variante notiert.\n\nStart: Handy weg\, nur die nötigen Fens
+ ter offen\, mit dem kleinsten nächsten Schritt beginnen.\nNicht fertig? R
+ est notieren und in den nächsten Puffer-Block schieben – nicht den Plan
+  verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Stufe 3: Vergleich absichern
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261120-A-018@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261120T090000
+DTEND;TZID=Europe/Berlin:20261120T120000
+SUMMARY:BA: Perspektivische Simulation einbauen
+DESCRIPTION:Fertig\, wenn: Homographie für 0–70° in eval_pipeline.py\; 
+ Beispielbilder plausibel (Stauchung um cos θ).\n\nStart: Handy weg\, nur 
+ die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.
+ \nNicht fertig? Rest notieren und in den nächsten Puffer-Block schieben 
+ – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Perspektivische Simulation einbauen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261120-B-019@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261120T130000
+DTEND;TZID=Europe/Berlin:20261120T160000
+SUMMARY:BA: Bewegungsunschärfe und Kombinationen einbauen
+DESCRIPTION:Fertig\, wenn: Linearer Bewegungskern sowie Kombinationen Aufl
+ ösung × Unschärfe und Auflösung × JPEG als Optionen verfügbar.\n\nSt
+ art: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten nächs
+ ten Schritt beginnen.\nNicht fertig? Rest notieren und in den nächsten Pu
+ ffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Bewegungsunschärfe und Kombinationen einbauen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261121-A-020@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261121T090000
+DTEND;TZID=Europe/Berlin:20261121T120000
+SUMMARY:BA: Simulation validieren
+DESCRIPTION:Fertig\, wenn: Testlauf mit 10 Kennzeichen je Störgröße fehl
+ erfrei\; Beispielabbildungen gespeichert.\n\nStart: Handy weg\, nur die n
+ ötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.\nNic
+ ht fertig? Rest notieren und in den nächsten Puffer-Block schieben – ni
+ cht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Simulation validieren
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261121-B-021@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261121T130000
+DTEND;TZID=Europe/Berlin:20261121T160000
+SUMMARY:BA: Pipeline einfrieren + Puffer
+DESCRIPTION:Fertig\, wenn: git-Tag „experimente-v1“ gesetzt\; restliche
+  Zeit für Liegengebliebenes.\n\nStart: Handy weg\, nur die nötigen Fenst
+ er offen\, mit dem kleinsten nächsten Schritt beginnen.\nNicht fertig? Re
+ st notieren und in den nächsten Puffer-Block schieben – nicht den Plan 
+ verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Pipeline einfrieren + Puffer
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261121-W-022@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261121T160000
+DTEND;TZID=Europe/Berlin:20261121T163000
+SUMMARY:BA: Wochen-Check
+DESCRIPTION:15 Minuten: Was ist erledigt? Was hängt und warum? Restpunkte 
+ auf die Puffer-Blöcke verteilen.\n10 Minuten: Nächste Woche ansehen – 
+ sind die Aufgaben klar genug\, um morgens sofort anzufangen?\n5 Minuten: S
+ tand kurz notieren.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Wochen-Check
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261121-M-023@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:BA: Meilenstein: Testmenge\, Kriterium und Pipeline fest
+DESCRIPTION:Zwischenziel des persönlichen Plans: Bachelorarbeit fertig bis
+  30.12.2026 (ab 02.01. Winterreise).
+CATEGORIES:Bachelorarbeit
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261123-A-024@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261123T090000
+DTEND;TZID=Europe/Berlin:20261123T120000
+SUMMARY:BA: Experiment Auflösung
+DESCRIPTION:Fertig\, wenn: Lauf über alle Kennzeichenhöhen (6–28 px) f
+ ür Stufe 2 und Gesamtpipeline abgeschlossen.\n\nStart: Handy weg\, nur di
+ e nötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.\n
+ Nicht fertig? Rest notieren und in den nächsten Puffer-Block schieben –
+  nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Experiment Auflösung
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261123-B-025@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261123T130000
+DTEND;TZID=Europe/Berlin:20261123T160000
+SUMMARY:BA: Auswertung Auflösung
+DESCRIPTION:Fertig\, wenn: Kurven mit Wilson-Intervallen erstellt\; Mindest
+ pixelhöhe für Finden und Lesen bestimmt (TF1\, H1).\n\nStart: Handy weg\
+ , nur die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt beg
+ innen.\nNicht fertig? Rest notieren und in den nächsten Puffer-Block schi
+ eben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Auswertung Auflösung
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261124-A-026@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261124T090000
+DTEND;TZID=Europe/Berlin:20261124T120000
+SUMMARY:BA: Experiment Blickwinkel
+DESCRIPTION:Fertig\, wenn: Lauf 0–70° (perspektivisch) abgeschlossen.\n\
+ nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten nä
+ chsten Schritt beginnen.\nNicht fertig? Rest notieren und in den nächsten
+  Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Experiment Blickwinkel
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261124-B-027@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261124T130000
+DTEND;TZID=Europe/Berlin:20261124T160000
+SUMMARY:BA: Auswertung Blickwinkel
+DESCRIPTION:Fertig\, wenn: Grenzwinkel bestimmt\; McNemar gestaucht gegen u
+ ngestaucht bei gleicher effektiver Höhe gerechnet (TF2\, H2).\n\nStart: H
+ andy weg\, nur die nötigen Fenster offen\, mit dem kleinsten nächsten Sc
+ hritt beginnen.\nNicht fertig? Rest notieren und in den nächsten Puffer-B
+ lock schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Auswertung Blickwinkel
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261125-A-028@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261125T090000
+DTEND;TZID=Europe/Berlin:20261125T120000
+SUMMARY:BA: Experiment Bildqualität
+DESCRIPTION:Fertig\, wenn: Läufe Gauß-Unschärfe\, Bewegungsunschärfe un
+ d JPEG 95–10 abgeschlossen.\n\nStart: Handy weg\, nur die nötigen Fenst
+ er offen\, mit dem kleinsten nächsten Schritt beginnen.\nNicht fertig? Re
+ st notieren und in den nächsten Puffer-Block schieben – nicht den Plan 
+ verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Experiment Bildqualität
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261125-B-029@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261125T130000
+DTEND;TZID=Europe/Berlin:20261125T160000
+SUMMARY:BA: Auswertung Bildqualität
+DESCRIPTION:Fertig\, wenn: Tolerierte Unschärfe und JPEG-Stufe je Störgr
+ öße bestimmt (TF3).\n\nStart: Handy weg\, nur die nötigen Fenster offen
+ \, mit dem kleinsten nächsten Schritt beginnen.\nNicht fertig? Rest notie
+ ren und in den nächsten Puffer-Block schieben – nicht den Plan verwerfe
+ n.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Auswertung Bildqualität
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261126-A-030@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261126T090000
+DTEND;TZID=Europe/Berlin:20261126T120000
+SUMMARY:BA: Experiment Kombinationen
+DESCRIPTION:Fertig\, wenn: Auflösung × Unschärfe und Auflösung × JPEG 
+ gelaufen.\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem k
+ leinsten nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in d
+ en nächsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Experiment Kombinationen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261126-B-031@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261126T130000
+DTEND;TZID=Europe/Berlin:20261126T160000
+SUMMARY:BA: Auswertung Kombinationen
+DESCRIPTION:Fertig\, wenn: Heatmaps erstellt\; H3 bewertet.\n\nStart: Handy
+  weg\, nur die nötigen Fenster offen\, mit dem kleinsten nächsten Schrit
+ t beginnen.\nNicht fertig? Rest notieren und in den nächsten Puffer-Block
+  schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Auswertung Kombinationen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261127-A-032@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261127T090000
+DTEND;TZID=Europe/Berlin:20261127T120000
+SUMMARY:BA: Laufzeit und Stufe 1/2 final
+DESCRIPTION:Fertig\, wenn: Laufzeiten je Stufe gemessen\; Testsplit-Ergebni
+ sse von Stufe 1 und 2 in der Ergebnistabelle.\n\nStart: Handy weg\, nur di
+ e nötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.\n
+ Nicht fertig? Rest notieren und in den nächsten Puffer-Block schieben –
+  nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Laufzeit und Stufe 1/2 final
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261127-B-033@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261127T130000
+DTEND;TZID=Europe/Berlin:20261127T160000
+SUMMARY:BA: Kameramodell Matrice 4TD
+DESCRIPTION:Fertig\, wenn: k für alle Kameras und Modi berechnet\; Tabelle
+  maximale Entfernung/Flughöhe mit den gemessenen Grenzwerten erstellt (TF
+ 4).\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinst
+ en nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den nä
+ chsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Kameramodell Matrice 4TD
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261128-A-034@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261128T090000
+DTEND;TZID=Europe/Berlin:20261128T120000
+SUMMARY:BA: Flughöhe: Szenarien
+DESCRIPTION:Fertig\, wenn: Bewegungsunschärfe-Check (L = v·t/GSD) und Ver
+ gleich mit der 120-m-Grenze dokumentiert.\n\nStart: Handy weg\, nur die n
+ ötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.\nNic
+ ht fertig? Rest notieren und in den nächsten Puffer-Block schieben – ni
+ cht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Flughöhe: Szenarien
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261128-B-035@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261128T130000
+DTEND;TZID=Europe/Berlin:20261128T160000
+SUMMARY:BA: Ergebnisse bündeln
+DESCRIPTION:Fertig\, wenn: Alle Abbildungen und Tabellen in einem Ordner\; 
+ Zahlenübersicht auf einer Seite\; kurzer Zwischenstand an den Referenten.
+ \n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten 
+ nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den nächs
+ ten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Ergebnisse bündeln
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261128-W-036@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261128T160000
+DTEND;TZID=Europe/Berlin:20261128T163000
+SUMMARY:BA: Wochen-Check
+DESCRIPTION:15 Minuten: Was ist erledigt? Was hängt und warum? Restpunkte 
+ auf die Puffer-Blöcke verteilen.\n10 Minuten: Nächste Woche ansehen – 
+ sind die Aufgaben klar genug\, um morgens sofort anzufangen?\n5 Minuten: S
+ tand kurz notieren.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Wochen-Check
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261128-M-037@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:BA: Meilenstein: Grenzwerte ermittelt
+DESCRIPTION:Zwischenziel des persönlichen Plans: Bachelorarbeit fertig bis
+  30.12.2026 (ab 02.01. Winterreise).
+CATEGORIES:Bachelorarbeit
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261130-A-038@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261130T090000
+DTEND;TZID=Europe/Berlin:20261130T120000
+SUMMARY:BA: Schreiben: 4.1 Gesamtkonzept
+DESCRIPTION:Fertig\, wenn: ca. 2 Seiten Rohtext plus Abbildung der Pipeline
+ .\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten
+  nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den näch
+ sten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 4.1 Gesamtkonzept
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261130-B-039@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261130T130000
+DTEND;TZID=Europe/Berlin:20261130T160000
+SUMMARY:BA: Schreiben: 4.2 Datensätze
+DESCRIPTION:Fertig\, wenn: ca. 2 Seiten Rohtext inkl. Tabelle der Datensät
+ ze.\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinst
+ en nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den nä
+ chsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 4.2 Datensätze
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261201-A-040@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261201T090000
+DTEND;TZID=Europe/Berlin:20261201T120000
+SUMMARY:BA: Schreiben: 4.3 Training
+DESCRIPTION:Fertig\, wenn: ca. 2 Seiten: Hyperparameter\, Augmentierung\, K
+ aggle.\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem klei
+ nsten nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den 
+ nächsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 4.3 Training
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261201-B-041@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261201T130000
+DTEND;TZID=Europe/Berlin:20261201T160000
+SUMMARY:BA: Schreiben: 4.4 Segmentierung\, Dekodierung\, Tracking
+DESCRIPTION:Fertig\, wenn: ca. 1\,5 Seiten Rohtext.\n\nStart: Handy weg\, n
+ ur die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginn
+ en.\nNicht fertig? Rest notieren und in den nächsten Puffer-Block schiebe
+ n – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 4.4 Segmentierung\, Dekodierung\, Tracking
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261202-A-042@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261202T090000
+DTEND;TZID=Europe/Berlin:20261202T120000
+SUMMARY:BA: Schreiben: 4.5 Simulation
+DESCRIPTION:Fertig\, wenn: ca. 1\,5 Seiten Rohtext.\n\nStart: Handy weg\, n
+ ur die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginn
+ en.\nNicht fertig? Rest notieren und in den nächsten Puffer-Block schiebe
+ n – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 4.5 Simulation
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261202-B-043@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261202T130000
+DTEND;TZID=Europe/Berlin:20261202T160000
+SUMMARY:BA: Schreiben: 4.6 Versuchsdesign und Zuverlässigkeit
+DESCRIPTION:Fertig\, wenn: ca. 1 Seite\; Kapitel 4 komplett (ca. 10 Seiten)
+ .\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten
+  nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den näch
+ sten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 4.6 Versuchsdesign und Zuverlässigkeit
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261203-A-044@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261203T090000
+DTEND;TZID=Europe/Berlin:20261203T120000
+SUMMARY:BA: Schreiben: Kap. 5 Implementierung
+DESCRIPTION:Fertig\, wenn: ca. 3–4 Seiten: Umgebung\, Software\, Evaluati
+ onswerkzeuge.\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit d
+ em kleinsten nächsten Schritt beginnen.\nNicht fertig? Rest notieren und 
+ in den nächsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: Kap. 5 Implementierung
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261203-B-045@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261203T130000
+DTEND;TZID=Europe/Berlin:20261203T160000
+SUMMARY:BA: Schreiben: 6.1–6.3 Ergebnisse je Stufe
+DESCRIPTION:Fertig\, wenn: ca. 2\,5 Seiten: Fahrzeug-\, Kennzeichen-\, Zeic
+ henerkennung.\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit d
+ em kleinsten nächsten Schritt beginnen.\nNicht fertig? Rest notieren und 
+ in den nächsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 6.1–6.3 Ergebnisse je Stufe
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261204-A-046@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261204T090000
+DTEND;TZID=Europe/Berlin:20261204T120000
+SUMMARY:BA: Schreiben: 6.4 Gesamtpipeline + 6.5.1 Auflösung
+DESCRIPTION:Fertig\, wenn: ca. 2 Seiten Rohtext.\n\nStart: Handy weg\, nur 
+ die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.
+ \nNicht fertig? Rest notieren und in den nächsten Puffer-Block schieben 
+ – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 6.4 Gesamtpipeline + 6.5.1 Auflösung
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261204-B-047@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261204T130000
+DTEND;TZID=Europe/Berlin:20261204T160000
+SUMMARY:BA: Schreiben: 6.5.2 Blickwinkel + 6.5.3 Bildqualität
+DESCRIPTION:Fertig\, wenn: ca. 3 Seiten Rohtext.\n\nStart: Handy weg\, nur 
+ die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.
+ \nNicht fertig? Rest notieren und in den nächsten Puffer-Block schieben 
+ – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 6.5.2 Blickwinkel + 6.5.3 Bildqualität
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261205-A-048@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261205T090000
+DTEND;TZID=Europe/Berlin:20261205T120000
+SUMMARY:BA: Schreiben: 6.6 Laufzeit + Abbildungen nummerieren
+DESCRIPTION:Fertig\, wenn: ca. 1 Seite\; Kapitel 6 komplett (ca. 9 Seiten).
+ \n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten 
+ nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den nächs
+ ten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 6.6 Laufzeit + Abbildungen nummerieren
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261205-B-049@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261205T130000
+DTEND;TZID=Europe/Berlin:20261205T160000
+SUMMARY:BA: Schreiben: 7.1–7.2 Flughöhe
+DESCRIPTION:Fertig\, wenn: ca. 2\,5 Seiten: von der Mindestpixelzahl zur Ob
+ jektauflösung\, Berechnung je Kamera.\n\nStart: Handy weg\, nur die nöti
+ gen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.\nNicht f
+ ertig? Rest notieren und in den nächsten Puffer-Block schieben – nicht 
+ den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 7.1–7.2 Flughöhe
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261205-W-050@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261205T160000
+DTEND;TZID=Europe/Berlin:20261205T163000
+SUMMARY:BA: Wochen-Check
+DESCRIPTION:15 Minuten: Was ist erledigt? Was hängt und warum? Restpunkte 
+ auf die Puffer-Blöcke verteilen.\n10 Minuten: Nächste Woche ansehen – 
+ sind die Aufgaben klar genug\, um morgens sofort anzufangen?\n5 Minuten: S
+ tand kurz notieren.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Wochen-Check
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261207-A-051@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261207T090000
+DTEND;TZID=Europe/Berlin:20261207T120000
+SUMMARY:BA: Schreiben: 7.3 Beispielrechnung und Szenarien
+DESCRIPTION:Fertig\, wenn: ca. 1\,5 Seiten\; Kapitel 7 komplett (ca. 4 Seit
+ en).\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleins
+ ten nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den n
+ ächsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 7.3 Beispielrechnung und Szenarien
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261207-B-052@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261207T130000
+DTEND;TZID=Europe/Berlin:20261207T160000
+SUMMARY:BA: Schreiben: 2.1 Drohne und Kameratechnik
+DESCRIPTION:Fertig\, wenn: ca. 2 Seiten: Matrice 4TD\, Abbildungsgeometrie\
+ , GSD.\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem klei
+ nsten nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den 
+ nächsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 2.1 Drohne und Kameratechnik
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261208-A-053@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261208T090000
+DTEND;TZID=Europe/Berlin:20261208T120000
+SUMMARY:BA: Schreiben: 2.2 Deutsche Kfz-Kennzeichen
+DESCRIPTION:Fertig\, wenn: ca. 1\,5 Seiten (FZV).\n\nStart: Handy weg\, nur
+  die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen
+ .\nNicht fertig? Rest notieren und in den nächsten Puffer-Block schieben 
+ – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 2.2 Deutsche Kfz-Kennzeichen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261208-B-054@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261208T130000
+DTEND;TZID=Europe/Berlin:20261208T160000
+SUMMARY:BA: Schreiben: 2.3.1–2.3.2 CNN und Detektoren
+DESCRIPTION:Fertig\, wenn: ca. 2 Seiten Rohtext.\n\nStart: Handy weg\, nur 
+ die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.
+ \nNicht fertig? Rest notieren und in den nächsten Puffer-Block schieben 
+ – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 2.3.1–2.3.2 CNN und Detektoren
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261209-A-055@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261209T090000
+DTEND;TZID=Europe/Berlin:20261209T120000
+SUMMARY:BA: Schreiben: 2.3.3–2.3.4 YOLO26 und Transfer Learning
+DESCRIPTION:Fertig\, wenn: ca. 2 Seiten Rohtext.\n\nStart: Handy weg\, nur 
+ die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.
+ \nNicht fertig? Rest notieren und in den nächsten Puffer-Block schieben 
+ – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 2.3.3–2.3.4 YOLO26 und Transfer Learning
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261209-B-056@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261209T130000
+DTEND;TZID=Europe/Berlin:20261209T160000
+SUMMARY:BA: Schreiben: 2.4 Zeichenerkennung + 2.5 Metriken
+DESCRIPTION:Fertig\, wenn: ca. 2\,5 Seiten\; Kapitel 2 komplett (ca. 10 Sei
+ ten).\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem klein
+ sten nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den n
+ ächsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 2.4 Zeichenerkennung + 2.5 Metriken
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261210-A-057@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261210T090000
+DTEND;TZID=Europe/Berlin:20261210T120000
+SUMMARY:BA: Schreiben: 3.1–3.2 ALPR und mehrstufige Pipelines
+DESCRIPTION:Fertig\, wenn: ca. 2 Seiten Rohtext.\n\nStart: Handy weg\, nur 
+ die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.
+ \nNicht fertig? Rest notieren und in den nächsten Puffer-Block schieben 
+ – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 3.1–3.2 ALPR und mehrstufige Pipelines
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261210-B-058@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261210T130000
+DTEND;TZID=Europe/Berlin:20261210T160000
+SUMMARY:BA: Schreiben: 3.3–3.4 Drohnenperspektive und Robustheit
+DESCRIPTION:Fertig\, wenn: ca. 2 Seiten Rohtext.\n\nStart: Handy weg\, nur 
+ die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.
+ \nNicht fertig? Rest notieren und in den nächsten Puffer-Block schieben 
+ – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 3.3–3.4 Drohnenperspektive und Robustheit
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261211-A-059@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261211T090000
+DTEND;TZID=Europe/Berlin:20261211T120000
+SUMMARY:BA: Schreiben: 3.5 Forschungslücke + Literatur pflegen
+DESCRIPTION:Fertig\, wenn: ca. 1 Seite\; Kapitel 3 komplett\; Literaturverz
+ eichnis vollständig.\n\nStart: Handy weg\, nur die nötigen Fenster offen
+ \, mit dem kleinsten nächsten Schritt beginnen.\nNicht fertig? Rest notie
+ ren und in den nächsten Puffer-Block schieben – nicht den Plan verwerfe
+ n.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 3.5 Forschungslücke + Literatur pflegen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261211-B-060@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261211T130000
+DTEND;TZID=Europe/Berlin:20261211T160000
+SUMMARY:BA: Schreiben: 8.1 Interpretation
+DESCRIPTION:Fertig\, wenn: ca. 2 Seiten Rohtext.\n\nStart: Handy weg\, nur 
+ die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.
+ \nNicht fertig? Rest notieren und in den nächsten Puffer-Block schieben 
+ – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 8.1 Interpretation
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261212-A-061@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261212T090000
+DTEND;TZID=Europe/Berlin:20261212T120000
+SUMMARY:BA: Schreiben: 8.2 Grenzen und Validität
+DESCRIPTION:Fertig\, wenn: ca. 1 Seite Rohtext.\n\nStart: Handy weg\, nur d
+ ie nötigen Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.\
+ nNicht fertig? Rest notieren und in den nächsten Puffer-Block schieben 
+ – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 8.2 Grenzen und Validität
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261212-B-062@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261212T130000
+DTEND;TZID=Europe/Berlin:20261212T160000
+SUMMARY:BA: Schreiben: 8.3 Rechtliche und ethische Aspekte
+DESCRIPTION:Fertig\, wenn: ca. 1 Seite\; Kapitel 8 komplett (ca. 4 Seiten).
+ \n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten 
+ nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den nächs
+ ten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: 8.3 Rechtliche und ethische Aspekte
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261212-W-063@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261212T160000
+DTEND;TZID=Europe/Berlin:20261212T163000
+SUMMARY:BA: Wochen-Check
+DESCRIPTION:15 Minuten: Was ist erledigt? Was hängt und warum? Restpunkte 
+ auf die Puffer-Blöcke verteilen.\n10 Minuten: Nächste Woche ansehen – 
+ sind die Aufgaben klar genug\, um morgens sofort anzufangen?\n5 Minuten: S
+ tand kurz notieren.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Wochen-Check
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261214-A-064@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261214T090000
+DTEND;TZID=Europe/Berlin:20261214T120000
+SUMMARY:BA: Schreiben: Kap. 9 Fazit und Ausblick
+DESCRIPTION:Fertig\, wenn: ca. 2 Seiten\; jede Teilfrage konkret beantworte
+ t.\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinste
+ n nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den näc
+ hsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: Kap. 9 Fazit und Ausblick
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261214-B-065@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261214T130000
+DTEND;TZID=Europe/Berlin:20261214T160000
+SUMMARY:BA: Schreiben: Kap. 1 Einleitung
+DESCRIPTION:Fertig\, wenn: ca. 3 Seiten: Motivation\, Ziel und Forschungsfr
+ age\, Abgrenzung\, Aufbau.\n\nStart: Handy weg\, nur die nötigen Fenster 
+ offen\, mit dem kleinsten nächsten Schritt beginnen.\nNicht fertig? Rest 
+ notieren und in den nächsten Puffer-Block schieben – nicht den Plan ver
+ werfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: Kap. 1 Einleitung
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261215-A-066@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261215T090000
+DTEND;TZID=Europe/Berlin:20261215T120000
+SUMMARY:BA: Schreiben: Zusammenfassung + Abstract
+DESCRIPTION:Fertig\, wenn: je ca. eine halbe Seite auf Deutsch und Englisch
+ .\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten
+  nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den näch
+ sten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Schreiben: Zusammenfassung + Abstract
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261215-B-067@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261215T130000
+DTEND;TZID=Europe/Berlin:20261215T160000
+SUMMARY:BA: Titelblatt\, Erklärung\, Verzeichnisse
+DESCRIPTION:Fertig\, wenn: Titelblatt\, Eigenständigkeitserklärung\, Abbi
+ ldungs-\, Tabellen- und Abkürzungsverzeichnis fertig\; Rohfassung an Korr
+ ekturleser geschickt.\n\nStart: Handy weg\, nur die nötigen Fenster offen
+ \, mit dem kleinsten nächsten Schritt beginnen.\nNicht fertig? Rest notie
+ ren und in den nächsten Puffer-Block schieben – nicht den Plan verwerfe
+ n.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Titelblatt\, Erklärung\, Verzeichnisse
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261215-M-068@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:BA: Meilenstein: Rohfassung komplett
+DESCRIPTION:Zwischenziel des persönlichen Plans: Bachelorarbeit fertig bis
+  30.12.2026 (ab 02.01. Winterreise).
+CATEGORIES:Bachelorarbeit
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261216-A-069@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261216T090000
+DTEND;TZID=Europe/Berlin:20261216T120000
+SUMMARY:BA: Überarbeiten: Kap. 1–3
+DESCRIPTION:Fertig\, wenn: Roter Faden geprüft\, Wiederholungen gestrichen
+ .\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten
+  nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den näch
+ sten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Überarbeiten: Kap. 1–3
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261216-B-070@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261216T130000
+DTEND;TZID=Europe/Berlin:20261216T160000
+SUMMARY:BA: Überarbeiten: Kap. 4–5
+DESCRIPTION:Fertig\, wenn: Methodik nachvollziehbar und vollständig.\n\nSt
+ art: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten nächs
+ ten Schritt beginnen.\nNicht fertig? Rest notieren und in den nächsten Pu
+ ffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Überarbeiten: Kap. 4–5
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261217-A-071@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261217T090000
+DTEND;TZID=Europe/Berlin:20261217T120000
+SUMMARY:BA: Überarbeiten: Kap. 6–7
+DESCRIPTION:Fertig\, wenn: Alle Zahlen gegen die Ergebnisdateien geprüft.\
+ n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten n
+ ächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den nächst
+ en Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Überarbeiten: Kap. 6–7
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261217-B-072@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261217T130000
+DTEND;TZID=Europe/Berlin:20261217T160000
+SUMMARY:BA: Überarbeiten: Kap. 8–9
+DESCRIPTION:Fertig\, wenn: Fazit beantwortet Leitfrage und jede Teilfrage.\
+ n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten n
+ ächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den nächst
+ en Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Überarbeiten: Kap. 8–9
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261218-A-073@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261218T090000
+DTEND;TZID=Europe/Berlin:20261218T120000
+SUMMARY:BA: Quellen prüfen
+DESCRIPTION:Fertig\, wenn: Jede Quelle zitiert\, IEEE einheitlich\, Online-
+ Quellen mit Zugriffsdatum.\n\nStart: Handy weg\, nur die nötigen Fenster 
+ offen\, mit dem kleinsten nächsten Schritt beginnen.\nNicht fertig? Rest 
+ notieren und in den nächsten Puffer-Block schieben – nicht den Plan ver
+ werfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Quellen prüfen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261218-B-074@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261218T130000
+DTEND;TZID=Europe/Berlin:20261218T160000
+SUMMARY:BA: Abbildungen und Tabellen prüfen
+DESCRIPTION:Fertig\, wenn: Beschriftungen (Tabellen oben\, Abbildungen unte
+ n)\, Verweise im Text\, Lesbarkeit.\n\nStart: Handy weg\, nur die nötigen
+  Fenster offen\, mit dem kleinsten nächsten Schritt beginnen.\nNicht fert
+ ig? Rest notieren und in den nächsten Puffer-Block schieben – nicht den
+  Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Abbildungen und Tabellen prüfen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261219-A-075@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261219T090000
+DTEND;TZID=Europe/Berlin:20261219T120000
+SUMMARY:BA: Formatierung nach FBI-Vorgaben
+DESCRIPTION:Fertig\, wenn: Ränder\, Schrift\, Zeilenabstand 1\,5\, max. 4 
+ Gliederungsebenen\, Seitenzahlen.\n\nStart: Handy weg\, nur die nötigen F
+ enster offen\, mit dem kleinsten nächsten Schritt beginnen.\nNicht fertig
+ ? Rest notieren und in den nächsten Puffer-Block schieben – nicht den P
+ lan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Formatierung nach FBI-Vorgaben
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261219-B-076@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261219T130000
+DTEND;TZID=Europe/Berlin:20261219T160000
+SUMMARY:BA: Puffer
+DESCRIPTION:Fertig\, wenn: Liegengebliebenes aus der Woche aufgeholt.\n\nSt
+ art: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten nächs
+ ten Schritt beginnen.\nNicht fertig? Rest notieren und in den nächsten Pu
+ ffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Puffer
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261219-W-077@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261219T160000
+DTEND;TZID=Europe/Berlin:20261219T163000
+SUMMARY:BA: Wochen-Check
+DESCRIPTION:15 Minuten: Was ist erledigt? Was hängt und warum? Restpunkte 
+ auf die Puffer-Blöcke verteilen.\n10 Minuten: Nächste Woche ansehen – 
+ sind die Aufgaben klar genug\, um morgens sofort anzufangen?\n5 Minuten: S
+ tand kurz notieren.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Wochen-Check
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261221-A-078@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261221T090000
+DTEND;TZID=Europe/Berlin:20261221T120000
+SUMMARY:BA: Umfang prüfen
+DESCRIPTION:Fertig\, wenn: Textteil liegt bei 40–60 Seiten\; zu lange Ste
+ llen gekürzt.\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit 
+ dem kleinsten nächsten Schritt beginnen.\nNicht fertig? Rest notieren und
+  in den nächsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Umfang prüfen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261221-B-079@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261221T130000
+DTEND;TZID=Europe/Berlin:20261221T160000
+SUMMARY:BA: Feedback Korrekturleser einarbeiten
+DESCRIPTION:Fertig\, wenn: Alle Anmerkungen bearbeitet oder bewusst verworf
+ en.\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinst
+ en nächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den nä
+ chsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Feedback Korrekturleser einarbeiten
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261222-A-080@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261222T090000
+DTEND;TZID=Europe/Berlin:20261222T120000
+SUMMARY:BA: Rechtschreibung und Grammatik
+DESCRIPTION:Fertig\, wenn: Kompletter Durchgang inkl. Word-Prüfung.\n\nSta
+ rt: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten nächst
+ en Schritt beginnen.\nNicht fertig? Rest notieren und in den nächsten Puf
+ fer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Rechtschreibung und Grammatik
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261222-B-081@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261222T130000
+DTEND;TZID=Europe/Berlin:20261222T160000
+SUMMARY:BA: Anhang und Code aufräumen
+DESCRIPTION:Fertig\, wenn: Anhang A–C fertig\, Repository bereinigt\, REA
+ DME aktuell.\n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit de
+ m kleinsten nächsten Schritt beginnen.\nNicht fertig? Rest notieren und i
+ n den nächsten Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Anhang und Code aufräumen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261223-A-082@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261223T090000
+DTEND;TZID=Europe/Berlin:20261223T120000
+SUMMARY:BA: Puffer
+DESCRIPTION:Fertig\, wenn: Offene Punkte der Woche erledigt.\n\nStart: Hand
+ y weg\, nur die nötigen Fenster offen\, mit dem kleinsten nächsten Schri
+ tt beginnen.\nNicht fertig? Rest notieren und in den nächsten Puffer-Bloc
+ k schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Puffer
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261223-B-083@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261223T130000
+DTEND;TZID=Europe/Berlin:20261223T160000
+SUMMARY:BA: Gesamtdurchlauf vor Weihnachten
+DESCRIPTION:Fertig\, wenn: Arbeit einmal komplett gelesen\; Restliste für 
+ 28.–30.12. notiert.\n\nStart: Handy weg\, nur die nötigen Fenster offen
+ \, mit dem kleinsten nächsten Schritt beginnen.\nNicht fertig? Rest notie
+ ren und in den nächsten Puffer-Block schieben – nicht den Plan verwerfe
+ n.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Gesamtdurchlauf vor Weihnachten
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261223-M-084@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:BA: Meilenstein: Fast-Endfassung
+DESCRIPTION:Zwischenziel des persönlichen Plans: Bachelorarbeit fertig bis
+  30.12.2026 (ab 02.01. Winterreise).
+CATEGORIES:Bachelorarbeit
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261228-A-085@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261228T090000
+DTEND;TZID=Europe/Berlin:20261228T120000
+SUMMARY:BA: Letzter Lesedurchgang Kap. 1–5
+DESCRIPTION:Fertig\, wenn: Gelesen\, Korrekturen markiert.\n\nStart: Handy 
+ weg\, nur die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt
+  beginnen.\nNicht fertig? Rest notieren und in den nächsten Puffer-Block 
+ schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Letzter Lesedurchgang Kap. 1–5
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261228-B-086@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261228T130000
+DTEND;TZID=Europe/Berlin:20261228T160000
+SUMMARY:BA: Letzter Lesedurchgang Kap. 6–9 + Anhang
+DESCRIPTION:Fertig\, wenn: Gelesen\, Korrekturen markiert.\n\nStart: Handy 
+ weg\, nur die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt
+  beginnen.\nNicht fertig? Rest notieren und in den nächsten Puffer-Block 
+ schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Letzter Lesedurchgang Kap. 6–9 + Anhang
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261229-A-087@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261229T090000
+DTEND;TZID=Europe/Berlin:20261229T120000
+SUMMARY:BA: Letzte Korrekturen einarbeiten
+DESCRIPTION:Fertig\, wenn: Alle Markierungen abgearbeitet.\n\nStart: Handy 
+ weg\, nur die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt
+  beginnen.\nNicht fertig? Rest notieren und in den nächsten Puffer-Block 
+ schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Letzte Korrekturen einarbeiten
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261229-B-088@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261229T130000
+DTEND;TZID=Europe/Berlin:20261229T160000
+SUMMARY:BA: Finale Formatierung + PDF
+DESCRIPTION:Fertig\, wenn: Inhaltsverzeichnis aktualisiert\, PDF erzeugt un
+ d Seite für Seite geprüft.\n\nStart: Handy weg\, nur die nötigen Fenste
+ r offen\, mit dem kleinsten nächsten Schritt beginnen.\nNicht fertig? Res
+ t notieren und in den nächsten Puffer-Block schieben – nicht den Plan v
+ erwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Finale Formatierung + PDF
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261230-A-089@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261230T090000
+DTEND;TZID=Europe/Berlin:20261230T120000
+SUMMARY:BA: Puffer
+DESCRIPTION:Fertig\, wenn: Letzte Kleinigkeiten erledigt.\n\nStart: Handy w
+ eg\, nur die nötigen Fenster offen\, mit dem kleinsten nächsten Schritt 
+ beginnen.\nNicht fertig? Rest notieren und in den nächsten Puffer-Block s
+ chieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Puffer
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261230-B-090@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;TZID=Europe/Berlin:20261230T130000
+DTEND;TZID=Europe/Berlin:20261230T160000
+SUMMARY:BA: Abschluss und Backup
+DESCRIPTION:Fertig\, wenn: PDF\, Word-Datei und Code an zwei Orten gesicher
+ t\; Abgabe-Checkliste (Unterschrift der Erklärung\, Abgabeweg) erledigt.\
+ n\nStart: Handy weg\, nur die nötigen Fenster offen\, mit dem kleinsten n
+ ächsten Schritt beginnen.\nNicht fertig? Rest notieren und in den nächst
+ en Puffer-Block schieben – nicht den Plan verwerfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:BA: Abschluss und Backup
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20261230-M-091@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:BA: Meilenstein: Bachelorarbeit fertig
+DESCRIPTION:Zwischenziel des persönlichen Plans: Bachelorarbeit fertig bis
+  30.12.2026 (ab 02.01. Winterreise).
+CATEGORIES:Bachelorarbeit
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ba-plan-20270203-M-092@simon-bachelorarbeit
+DTSTAMP:20261110T200000Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:BA: Offizielle Abgabefrist BA (ca. – Datum laut Anmeldung prüfen
+ )
+DESCRIPTION:Offizielle Bearbeitungszeit: 3 Monate ab Anmeldung (§ 12 Abs. 
+ 5 BBPO Informatik B.Sc.). Genaues Datum laut Anmeldebestätigung prüfen.
+CATEGORIES:Bachelorarbeit
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

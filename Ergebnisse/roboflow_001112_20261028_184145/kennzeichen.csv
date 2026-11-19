@@ -1,0 +1,2 @@
+﻿track_id;kennzeichen;ocr_konfidenz;uebereinstimmung;lesungen;frames;erste_sichtung_s;letzte_sichtung_s;fahrzeug_klasse;plausibel;crop
+1;IL-IP 317;0.797;1.0;1;1;0.0;0.0;;True;crops/track_0001.jpg

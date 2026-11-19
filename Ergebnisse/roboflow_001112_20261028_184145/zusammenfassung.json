@@ -1,0 +1,36 @@
+{
+  "quelle": "C:\\BA\\Daten\\kennzeichen_detection_dataset\\images\\test\\roboflow_001112.jpg",
+  "ausgabe": "C:\\BA\\Ergebnisse\\roboflow_001112_20261028_184145",
+  "modelle": {
+    "stufe1_fahrzeuge": null,
+    "stufe2_kennzeichen": "C:\\BA\\runs_stage2\\plate_detection\\weights\\best.pt",
+    "stufe3_zeichen": "C:\\BA\\runs_stage3\\char_ocr_model.pt"
+  },
+  "parameter": {
+    "out_dir": "C:\\BA\\Ergebnisse",
+    "plate_model": null,
+    "vehicle_model": null,
+    "ocr_model": null,
+    "no_vehicles": true,
+    "imgsz": 1280,
+    "crop_imgsz": 640,
+    "plate_conf": 0.35,
+    "vehicle_conf": 0.3,
+    "stride": 1,
+    "max_frames": 0,
+    "min_plate_px": 10,
+    "seg_candidates": 1,
+    "track_age": 15,
+    "min_track_frames": 1,
+    "no_video": false,
+    "show": false,
+    "open_result": true
+  },
+  "frames_gesamt": 1,
+  "frames_analysiert": 1,
+  "laufzeit_s": 5.1,
+  "frames_pro_s": 0.2,
+  "kennzeichen": [
+    "IL-IP 317"
+  ]
+}

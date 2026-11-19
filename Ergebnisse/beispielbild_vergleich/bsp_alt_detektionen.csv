@@ -1,0 +1,2 @@
+﻿frame;zeit_s;track_id;x1;y1;x2;y2;det_konfidenz;fahrzeug_klasse;fahrzeug_track;text_frame;ocr_konfidenz;plausibel;roh;text_stabil
+0;0.0;1;343;183;408;218;0.83;;;LIP-KE 35;0.666;True;LIP_E35;LIP-KE 35

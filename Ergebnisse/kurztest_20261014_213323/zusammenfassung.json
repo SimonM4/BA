@@ -1,0 +1,37 @@
+{
+  "quelle": "C:\\BA\\Videos\\Eingang\\kurztest.mp4",
+  "ausgabe": "C:\\BA\\Ergebnisse\\kurztest_20261014_213323",
+  "modelle": {
+    "stufe1_fahrzeuge": null,
+    "stufe2_kennzeichen": "C:\\BA\\runs_stage2\\plate_detection_first_test\\weights\\best.pt",
+    "stufe3_zeichen": "C:\\BA\\runs_stage3\\char_ocr_model.pt"
+  },
+  "parameter": {
+    "out_dir": "C:\\BA\\Ergebnisse",
+    "plate_model": null,
+    "vehicle_model": null,
+    "ocr_model": null,
+    "no_vehicles": false,
+    "imgsz": 1280,
+    "crop_imgsz": 640,
+    "plate_conf": 0.35,
+    "vehicle_conf": 0.3,
+    "stride": 1,
+    "max_frames": 0,
+    "min_plate_px": 10,
+    "seg_candidates": 1,
+    "track_age": 15,
+    "min_track_frames": 2,
+    "no_video": false,
+    "show": false,
+    "open_result": true
+  },
+  "frames_gesamt": 100,
+  "frames_analysiert": 100,
+  "laufzeit_s": 38.0,
+  "frames_pro_s": 2.63,
+  "kennzeichen": [
+    "LIP-HD 257",
+    "KL-KA 386"
+  ]
+}

@@ -1,0 +1,66 @@
+[pipeline] Stufe 1 (Fahrzeuge):     --- (nicht vorhanden/deaktiviert, Kennzeichensuche im Gesamtbild)
+[pipeline] Stufe 2 (Kennzeichen):   C:\BA\runs_stage2\plate_detection_first_test\weights\best.pt
+[pipeline] Stufe 3 (Zeichen-CNN):   C:\BA\runs_stage3\char_ocr_model.pt (37 Klassen)
+
+[pipeline] Quelle: C:\BA\Videos\testvideo_kennzeichen.mp4  (1500 Frames, 25.0 fps)
+[pipeline] Ausgabe: C:\BA\Ergebnisse\testvideo_kennzeichen_20261014_212851
+[pipeline] Frame 48/1500  2.4 Frames/s  Tracks: 1
+[pipeline] Frame 98/1500  2.9 Frames/s  Tracks: 2
+[pipeline] Frame 148/1500  3.2 Frames/s  Tracks: 3
+[pipeline] Frame 198/1500  3.3 Frames/s  Tracks: 4
+[pipeline] Frame 248/1500  3.3 Frames/s  Tracks: 5
+[pipeline] Frame 298/1500  3.3 Frames/s  Tracks: 6
+[pipeline] Frame 348/1500  3.4 Frames/s  Tracks: 6
+[pipeline] Frame 398/1500  3.3 Frames/s  Tracks: 7
+[pipeline] Frame 448/1500  3.3 Frames/s  Tracks: 8
+[pipeline] Frame 498/1500  3.3 Frames/s  Tracks: 9
+[pipeline] Frame 548/1500  3.3 Frames/s  Tracks: 10
+[pipeline] Frame 598/1500  3.4 Frames/s  Tracks: 11
+[pipeline] Frame 648/1500  3.4 Frames/s  Tracks: 12
+[pipeline] Frame 698/1500  3.4 Frames/s  Tracks: 12
+[pipeline] Frame 748/1500  3.4 Frames/s  Tracks: 12
+[pipeline] Frame 798/1500  3.4 Frames/s  Tracks: 13
+[pipeline] Frame 848/1500  3.4 Frames/s  Tracks: 14
+[pipeline] Frame 898/1500  3.4 Frames/s  Tracks: 15
+[pipeline] Frame 948/1500  3.4 Frames/s  Tracks: 16
+[pipeline] Frame 998/1500  3.4 Frames/s  Tracks: 17
+[pipeline] Frame 1048/1500  3.4 Frames/s  Tracks: 18
+[pipeline] Frame 1098/1500  3.4 Frames/s  Tracks: 18
+[pipeline] Frame 1148/1500  3.4 Frames/s  Tracks: 19
+[pipeline] Frame 1198/1500  3.5 Frames/s  Tracks: 22
+[pipeline] Frame 1248/1500  3.5 Frames/s  Tracks: 23
+[pipeline] Frame 1298/1500  3.5 Frames/s  Tracks: 24
+[pipeline] Frame 1348/1500  3.5 Frames/s  Tracks: 25
+[pipeline] Frame 1398/1500  3.5 Frames/s  Tracks: 26
+[pipeline] Frame 1448/1500  3.5 Frames/s  Tracks: 27
+[pipeline] Frame 1498/1500  3.5 Frames/s  Tracks: 27
+
+[pipeline] Fertig: 750 Frames in 217s (3.46 Frames/s)
+[pipeline] 25 Kennzeichen-Tracks:
+   #1    K-DG 105       Konf. 0.72  Uebereinst. 0.75  t=0.0-1.92s
+   #2    UPD-AW 8       Konf. 0.27  Uebereinst. 0.12  t=2.0-3.92s
+   #3    Z-D 8          Konf. 0.08  Uebereinst. 0.51  t=4.0-5.92s
+   #4    OE-I 93        Konf. 0.79  Uebereinst. 0.67  t=6.0-7.92s
+   #5    AN-HF 242      Konf. 0.59  Uebereinst. 0.65  t=8.0-9.92s
+   #6    Y-887 465      Konf. 0.87  Uebereinst. 0.87  t=10.0-13.84s
+   #7    FT-HK 787      Konf. 0.96  Uebereinst. 0.57  t=14.0-17.92s
+   #8    I-I 1          Konf. 0.11  Uebereinst. 0.34  t=16.0-17.92s
+   #9    LIP-HD 257     Konf. 0.93  Uebereinst. 1.00  t=18.0-19.92s
+   #10   KL-KA 386      Konf. 0.79  Uebereinst. 1.00  t=20.0-21.92s
+   #11   ZE-MH 517      Konf. 0.88  Uebereinst. 0.38  t=22.0-23.92s
+   #12   Y-881 695      Konf. 0.89  Uebereinst. 0.31  t=24.0-31.92s
+   #14   S-XD 333       Konf. 0.67  Uebereinst. 0.32  t=32.0-33.92s
+   #15   FU-CK 66       Konf. 0.89  Uebereinst. 0.96  t=34.0-35.92s
+   #16   (nicht lesbar) Konf. 0.00  Uebereinst. 0.00  t=36.0-37.92s
+   #17   B-P 1          Konf. 0.22  Uebereinst. 0.23  t=38.0-39.92s
+   #18   LI-P 2175      Konf. 0.89  Uebereinst. 0.79  t=40.0-43.92s
+   #19   III-I 11       Konf. 0.35  Uebereinst. 0.16  t=44.0-45.92s
+   #20   U-LA 2         Konf. 0.06  Uebereinst. 1.00  t=46.0-47.92s
+   #22   (nicht lesbar) Konf. 0.00  Uebereinst. 0.00  t=47.44-47.92s
+   #23   IQ-IA 385      Konf. 0.35  Uebereinst. 0.20  t=48.0-49.92s
+   #24   FD-B 1250      Konf. 0.90  Uebereinst. 0.96  t=50.0-51.92s
+   #25   TA-LC 181      Konf. 0.72  Uebereinst. 0.55  t=52.0-53.92s
+   #26   BER-WL 454     Konf. 0.75  Uebereinst. 0.85  t=54.0-55.92s
+   #27   M-MN 94        Konf. 0.95  Uebereinst. 0.46  t=56.0-59.92s
+[pipeline] Ergebnisse: C:\BA\Ergebnisse\testvideo_kennzeichen_20261014_212851
+FERTIG (Exitcode 0) 

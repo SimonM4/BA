@@ -1,0 +1,14 @@
+﻿datei;wahr;gelesen;roh;konfidenz;plausibel;zeichen_segmentiert;fehler
+roboflow_001121.jpg;LIP-YE 351;ILI-HH 4H;I4IHHEHI;0.338;False;8;7
+roboflow_001124.jpg;LIP-T 5555;IH-I 55H;IHI5HH;0.427;False;6;5
+roboflow_001130.jpg;LIP-KS 16;IP-KS 1H;IPKS1H;0.717;True;6;2
+roboflow_001136.jpg;LIP-IA 133;IH-II 133;IHII133I;0.587;False;8;3
+roboflow_001139.jpg;LIP-GE 90;HH-HE 7H;HHHEHH;0.294;False;6;6
+roboflow_001142.jpg;LIP-DI 202;LHH-HH 4H;4HHHH_I;0.262;False;7;7
+roboflow_001145.jpg;LIP-EB 911;IHH-HH 41;IHHHHH1;0.349;False;7;6
+roboflow_001148.jpg;LIP-YN 581;LIP-IV 581;4IPIV581;0.427;False;8;2
+roboflow_001151.jpg;LIP-06431;HIH-H 431;4IHH431;0.476;False;7;4
+roboflow_001154.jpg;LIP-RG 276;IIL-IH 41H;II4IH41H;0.374;False;8;7
+roboflow_001160.jpg;Y-873 536;Y-873 535;Y87353H;0.509;False;7;1
+roboflow_001163.jpg;LIP-OA 42E;IH-UH 47E;IHUH4HE;0.351;False;7;5
+roboflow_001169.jpg;Y-881 695;Y-881 695;Y88I695_;0.668;True;8;0

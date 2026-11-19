@@ -1,0 +1,28 @@
+[stage3] archive (4).zip: 35500 Bilder, Klassen: 0123456789ABCDEFGHIJKLMNPQRSTUVWXYZ
+[stage3] DeutschEinzelneZahlen.zip: 3009 Bilder, Klassen: 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
+[stage3]   -> 4x ueberabgetastet (kleine Quelle, aber FE-Schrift wie auf echten Kennzeichen)
+[stage3] 'kein Zeichen'-Beispiele aus C:\BA\Daten\kennzeichen_detection_dataset: 3000
+[stage3] Laden: 7.1s
+[stage3] 41509 Bilder, 37 Klassen: 0 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z _
+[stage3] Train 42999 / Val 6229
+[stage3] Modell: 0.32 Mio. Parameter, Torch-Threads: 14
+[stage3] Epoche  1/15 loss=2.6967 val_acc=0.6418 val_acc_drohne=0.5261 (231s)
+[stage3] Epoche  2/15 loss=1.0359 val_acc=0.9255 val_acc_drohne=0.8380 (209s)
+[stage3] Epoche  3/15 loss=0.7363 val_acc=0.9578 val_acc_drohne=0.8995 (192s)
+[stage3] Epoche  4/15 loss=0.6611 val_acc=0.9902 val_acc_drohne=0.9644 (160s)
+[stage3] Epoche  5/15 loss=0.6165 val_acc=0.9926 val_acc_drohne=0.9727 (180s)
+[stage3] Epoche  6/15 loss=0.5880 val_acc=0.9937 val_acc_drohne=0.9689 (233s)
+[stage3] Epoche  7/15 loss=0.5675 val_acc=0.9963 val_acc_drohne=0.9783 (227s)
+[stage3] Epoche  8/15 loss=0.5510 val_acc=0.9957 val_acc_drohne=0.9849 (224s)
+[stage3] Epoche  9/15 loss=0.5384 val_acc=0.9957 val_acc_drohne=0.9852 (197s)
+[stage3] Epoche 10/15 loss=0.5266 val_acc=0.9971 val_acc_drohne=0.9876 (170s)
+[stage3] Epoche 11/15 loss=0.5176 val_acc=0.9979 val_acc_drohne=0.9889 (171s)
+[stage3] Epoche 12/15 loss=0.5106 val_acc=0.9976 val_acc_drohne=0.9905 (170s)
+[stage3] Epoche 13/15 loss=0.5059 val_acc=0.9974 val_acc_drohne=0.9899 (169s)
+[stage3] Epoche 14/15 loss=0.5021 val_acc=0.9976 val_acc_drohne=0.9904 (170s)
+[stage3] Epoche 15/15 loss=0.5025 val_acc=0.9979 val_acc_drohne=0.9902 (170s)
+
+[stage3] Fertig. Bestes Modell: Epoche 12, val_acc=0.9976, val_acc_drohne=0.9905
+[stage3] Schwaechste Klassen: _=0.96, Q=0.97, 1=0.97, 7=0.98, 4=0.98, U=0.98
+[stage3] Gespeichert unter: C:\BA\runs_stage3\char_ocr_model.pt
+FERTIG (Exitcode 0) 
